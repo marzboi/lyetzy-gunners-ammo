@@ -9,8 +9,6 @@ function GunFire:init()
 
   self.cooldownTimer = self.fireTime
 
-  self.weaponIdentifier = config.getParameter("itemName")
-  self.totalAmmo = config.getParameter("totalAmmo")
   self.maxAmmo = config.getParameter("totalAmmo")
 
   self.weapon.onLeaveAbility = function()
@@ -19,8 +17,6 @@ function GunFire:init()
 end
 
 function GunFire:update(dt, fireMode, shiftHeld)
-  self.totalAmmo = player.getProperty(self.weaponIdentifier .. "_totalAmmo", self.maxAmmo)
-  
   WeaponAbility.update(self, dt, fireMode, shiftHeld)
 
   self.cooldownTimer = math.max(0, self.cooldownTimer - self.dt)
@@ -475,8 +471,8 @@ function GunFire:aimVector(inaccuracy)
 end
 
 function GunFire:reload()
-  self.totalAmmo = self.maxAmmo
-  player.setProperty(self.weaponIdentifier .. "_totalAmmo", self.totalAmmo)
+  storage.totalAmmo = self.maxAmmo
+  self.totalAmmo = storage.totalAmmo
   return true
 end
 
