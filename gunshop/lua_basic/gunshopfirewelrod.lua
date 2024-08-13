@@ -9,6 +9,15 @@ function GunFire:init()
 
   self.cooldownTimer = self.fireTime
 
+  self.maxAmmo = config.getParameter("totalAmmo")
+  self.ammoPerShoot = config.getParameter("ammoPerShoot")
+
+  if not storage.totalAmmo then
+    storage.totalAmmo = self.maxAmmo
+  end
+
+  self.totalAmmo = storage.totalAmmo
+
   self.weapon.onLeaveAbility = function()
     self.weapon:setStance(self.stances.idle)
   end
@@ -377,6 +386,8 @@ function GunFire:draw20()
 end
 
 function GunFire:update(dt, fireMode, shiftHeld)
+  self.totalAmmo = storage.totalAmmo
+
   WeaponAbility.update(self, dt, fireMode, shiftHeld)
 
   self.cooldownTimer = math.max(0, self.cooldownTimer - self.dt)
@@ -385,9 +396,10 @@ function GunFire:update(dt, fireMode, shiftHeld)
     and not self.weapon.currentAbility
     and self.cooldownTimer == 0
     and not status.resourceLocked("energy")
-    and not world.lineTileCollision(mcontroller.position(), self:firePosition()) then
+    and not world.lineTileCollision(mcontroller.position(), self:firePosition())
+    and self.totalAmmo > 0 then
 
-    if self.fireType == "auto" and status.overConsumeResource("energy", self:energyPerShot()) then
+    if self.fireType == "auto" and self:consumeAmmo() then
       self:setState(self.auto)
     end
   end
@@ -649,8 +661,14 @@ function GunFire:aimVector(inaccuracy)
   return aimVector
 end
 
-function GunFire:energyPerShot()
-  return self.energyUsage
+function GunFire:consumeAmmo()
+  if storage.totalAmmo >= self.ammoPerShoot then
+    storage.totalAmmo = storage.totalAmmo - self.ammoPerShoot
+    self.totalAmmo = storage.totalAmmo
+    return true
+  else
+    return false
+  end
 end
 
 function GunFire:damagePerShot()
