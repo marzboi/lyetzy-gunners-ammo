@@ -26,7 +26,8 @@ function GunFire:update(dt, fireMode, shiftHeld)
     and self.cooldownTimer == 0
     and not world.lineTileCollision(mcontroller.position(), self:firePosition()) then
 
-    if self.fireType == "auto" and self:reload() then
+    if self.fireType == "auto" then
+      self:reload()
       self:setState(self.auto)
     end
   end
@@ -473,7 +474,6 @@ end
 function GunFire:reload()
   storage.totalAmmo = self.maxAmmo
   self.totalAmmo = storage.totalAmmo
-  return true
 end
 
 function GunFire:damagePerShot()

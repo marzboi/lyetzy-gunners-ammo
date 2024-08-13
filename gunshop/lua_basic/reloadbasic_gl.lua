@@ -9,6 +9,8 @@ function GunFire:init()
 
   self.cooldownTimer = self.fireTime
 
+  self.maxAmmo = config.getParameter("totalAmmo")
+
   self.weapon.onLeaveAbility = function()
     self.weapon:setStance(self.stances.idle)
   end
@@ -25,6 +27,7 @@ function GunFire:update(dt, fireMode, shiftHeld)
     and not world.lineTileCollision(mcontroller.position(), self:firePosition()) then
 
     if self.fireType == "auto" then
+      self:reload()
       self:setState(self.auto)
     end
   end
@@ -332,7 +335,8 @@ function GunFire:aimVector(inaccuracy)
 end
 
 function GunFire:energyPerShot()
-  return self.energyUsage * 0
+  storage.totalAmmo = self.maxAmmo
+  self.totalAmmo = storage.totalAmmo
 end
 
 function GunFire:damagePerShot()
