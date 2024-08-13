@@ -5,6 +5,8 @@
   "maxStack" : 1,
   "rarity" : "common",
   "level" : 1,
+  "totalAmmo": 20,
+  "ammoPerShoot": 1,
   "shortdescription" : "Borz SMG",
   "category" : "^#7c7c7c;Грозный",
   "description" : 

@@ -5,6 +5,8 @@
   "maxStack" : 1,
   "rarity" : "common",
   "level" : 1,
+  "totalAmmo": 20,
+  "ammoPerShoot": 1,
   "shortdescription" : "FAL",
   "category" : "^#7c7c7c;FN Herstal",
   "description" : 
