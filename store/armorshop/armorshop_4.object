@@ -1,0 +1,61 @@
+{
+  "objectName" : "armorshop_4",
+  "price" : 10,
+  "colonyTags" : ["crafting"],
+  "rarity" : "uncommon",
+  "category" : "other",
+  "description" : "GUNSHOP ARMOR VENDOR",
+  "shortdescription" : "^04;^#93fdff;ARMORSHOP 4Tier",
+  "race" : "generic",
+  "printable" : false,
+
+  "apexDescription" : "ook, hoo hoo!",
+  "avianDescription" : "Tweet,tweet!",
+  "floranDescription" : "Awssssssssome!",
+  "glitchDescription" : "Beep!",
+  "humanDescription" : "YEAAAAAAH!",
+  "hylotlDescription" : "Flop,flop!",
+  "novakidDescription" : "I am sure that winchester must be the best firearm.
+Oh, Sorry SAA!",
+
+  "interactAction" : "OpenMerchantInterface",
+  "interactData" : {
+    "config" : "/store/ui/purchasing.config",
+    "filter" : [ "gunshop" ],
+    "paneLayoutOverride" : {
+      "windowtitle" : {
+        "title" : "ARMORSHOP 4Tier",
+        "subtitle" : "^red;Gunshop ARMOR Cabinet"
+      }
+    },
+    "buyFactor" : 1.0,
+    "sellFactor" : 0.2,
+    "items" : [
+	//1tier
+      { "item" : { "name" : "gs_usinfantry1" }, "prerequisiteQuest" : "gs3tier" },
+      { "item" : { "name" : "gs_usinfantry2" }, "prerequisiteQuest" : "gs3tier" },
+      { "item" : { "name" : "gs_usinfantry3" }, "prerequisiteQuest" : "gs3tier" },
+      { "item" : { "name" : "gs_usmedic1" }, "prerequisiteQuest" : "gs3tier" },
+      { "item" : { "name" : "gs_usmedic2" }, "prerequisiteQuest" : "gs3tier" },
+      { "item" : { "name" : "gs_usmedic3" }, "prerequisiteQuest" : "gs3tier" },
+      { "item" : { "name" : "gs_usofficer1" }, "prerequisiteQuest" : "gs3tier" },
+      { "item" : { "name" : "gs_usofficer2" }, "prerequisiteQuest" : "gs3tier" },
+      { "item" : { "name" : "gs_usofficer3" }, "prerequisiteQuest" : "gs3tier" }
+    ]
+  },
+
+  "inventoryIcon" : "armorshop_4.png",
+  "orientations" : [
+    {
+      "imageLayers" : [ { "image" : "armorshop_4.png" } ],
+
+      "imagePosition" : [0, 0],
+      "frames" : 1,
+      "animationCycle" : 1.0,
+
+      "spaceScan" : 0.1,
+      "collision" : "platform",
+      "anchors" : [ "bottom" ]
+    }
+  ]
+}

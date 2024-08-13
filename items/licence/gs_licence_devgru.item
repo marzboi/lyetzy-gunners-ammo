@@ -1,0 +1,8 @@
+{
+  "itemName" : "gs_licence_devgru",
+  "rarity" : "rare",
+  "price" : 6000,
+  "inventoryIcon" : "gs_licence.png",
+  "description" : "Space Warfare Development Group issue licence.",
+  "shortdescription" : "^#5edcff;DEVGRU issue Licence"
+}

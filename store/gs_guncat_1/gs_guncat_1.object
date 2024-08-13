@@ -1,0 +1,74 @@
+{
+  "objectName" : "gs_guncat_1",
+  "price" : 10,
+  "colonyTags" : ["crafting"],
+  "rarity" : "Legendary",
+  "category" : "other",
+  "description" : "''Take-a-look''ARMORSHOP SELLER",
+  "shortdescription" : "^02;^green;GS.^orange;Lyetzi's Cat",
+  "race" : "generic",
+  "printable" : false,
+
+  "apexDescription" : "What have you got for sale?",
+  "avianDescription" : "What have you got for sale?",
+  "floranDescription" : "What have you got for sale?",
+  "glitchDescription" : "What have you got for sale?",
+  "humanDescription" : "What have you got for sale?",
+  "hylotlDescription" : "What have you got for sale?",
+  "novakidDescription" : "What have you got for sale?",
+
+  "interactAction" : "OpenMerchantInterface",
+  "interactData" : {
+    "config" : "/interface/windowconfig/merchant.config",
+    "paneLayoutOverride" : {
+      "windowtitle" : {
+        "title" : "^red;Lyetzi's Cat",
+        "subtitle" : "''Take-a-look!''"
+      }
+    },
+    "buyFactor" : 1.0,
+    "sellFactor" : 0.5,
+    "items" : [
+	//1tier
+      { "item" : { "name" : "gs_9a91" } },
+      { "item" : { "name" : "gs_a545" } },
+      { "item" : { "name" : "gs_ak47" } },
+      { "item" : { "name" : "gs_ak74" } },
+      { "item" : { "name" : "gs_an94" } },
+      { "item" : { "name" : "gs_ash127" } },
+      { "item" : { "name" : "gs_asval" } },
+      { "item" : { "name" : "gs_aug" } },
+      { "item" : { "name" : "gs_fal" } },
+      { "item" : { "name" : "gs_famas" } },
+      { "item" : { "name" : "gs_g3" } },
+      { "item" : { "name" : "gs_g11" } },
+      { "item" : { "name" : "gs_g36" } },
+      { "item" : { "name" : "gs_k2" } },
+      { "item" : { "name" : "gs_l85" } },
+      { "item" : { "name" : "gs_m14" } },
+      { "item" : { "name" : "gs_m16a3" } },
+      { "item" : { "name" : "gs_mkb42" } },
+      { "item" : { "name" : "gs_ots14" } },
+      { "item" : { "name" : "gs_scarl" } },
+      { "item" : { "name" : "gs_sg550" } },
+      { "item" : { "name" : "gs_stg44" } }
+    ]
+  },
+
+
+  "inventoryIcon" : "icon.png",
+  "orientations" : [
+    {
+      "imageLayers" : [ { "image" : "gs_guncat_1.png:<color>.<frame>", "fullbright" : true }, { "image" : "gs_guncat_1cover.png:<color>.<frame>" } ],
+
+      "lightPosition" : [0, 0],
+
+      "imagePosition" : [0, 0],
+      "frames" : 60,
+      "animationCycle" : 6.0,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    }
+  ]
+}

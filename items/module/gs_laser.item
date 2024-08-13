@@ -1,0 +1,8 @@
+{
+  "itemName" : "gs_laser",
+  "rarity" : "rare",
+  "price" : 3000,
+  "inventoryIcon" : "gs_laser.png",
+  "description" : "Old world's Laser Module",
+  "shortdescription" : "^blue;Laser Module"
+}

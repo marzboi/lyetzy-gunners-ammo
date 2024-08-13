@@ -1,0 +1,22 @@
+{
+  "projectileName" : "bullet_head_sp",
+  "image" : "bullet_head_sp.png",
+  "animationCycle" : 0.1,
+  "piercing" : false,
+  "bounces" : 0,
+  "frameNumber" : 4,
+  "renderLayer" : "Player+1",
+  "timeToLive" : 3.0,
+  "actionOnReap" : [
+    {
+      "action" : "config",
+      "file" : "/gunshop/bullet/bullet_head.config"
+    }
+  ],
+  "power" : 5.0,
+  "speed" : 200,
+  "knockback" : 10,
+  "knockbackDirectional" : true,
+  "damageKind" : "default",
+  "fullbright" : true
+}

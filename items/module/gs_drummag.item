@@ -1,0 +1,8 @@
+{
+  "itemName" : "gs_drummag",
+  "rarity" : "legendary",
+  "price" : 5000,
+  "inventoryIcon" : "gs_drummag.png",
+  "description" : "Old world's brilliant masterpiece.",
+  "shortdescription" : "^#c97aff;Drum Magazine"
+}

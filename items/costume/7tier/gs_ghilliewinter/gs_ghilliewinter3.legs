@@ -1,0 +1,35 @@
+{
+  "itemName" : "gs_ghilliewinter3",
+  "inventoryIcon" : "icons.png:pants",
+  "dropCollision" : [-4.0, -3.0, 4.0, 3.0],
+  "rarity" : "legendary",
+  "price" : 20000,
+  "shortdescription" : "^03c;^yellow;Winter Ghilliesuit^white; - Pants",
+  "description" : "Camouflage clothing
+^green;DAMAGE+++
+^red;NO HEALTH BONUS",
+  "inspectionKind" : "armor",
+  "tooltipKind" : "armor",
+
+  "maleFrames" : "pants.png",
+  "femaleFrames" : "pants.png",
+
+  "level" : 7,
+  "leveledStatusEffects" : [
+    {
+      "levelFunction" : "standardArmorLevelPowerMultiplierMultiplier",
+      "stat" : "powerMultiplier",
+      "baseMultiplier" : 1.15
+    },
+    {
+      "levelFunction" : "standardArmorLevelProtectionMultiplier",
+      "stat" : "protection",
+      "amount" : 0.2
+    },
+    {
+      "levelFunction" : "standardArmorLevelMaxEnergyMultiplier",
+      "stat" : "maxEnergy",
+      "amount" : 2
+    }
+  ]
+}

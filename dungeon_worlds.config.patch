@@ -1,0 +1,305 @@
+[
+  {
+    "op" : "add",
+    "path" : "/operation_srs_0",
+    "value" : {
+      "primaryDungeon" : "operation_srs_0",
+      "environmentStatusEffects" : ["gs_walk50"],
+      "threatLevel" : 1,
+      "gravity" : 80,
+      "worldSize" : [2000, 2000],
+      "dungeonBaseHeight" : 1300,
+      "dungeonSurfaceHeight" : 1200,
+      "ambientLightLevel" : [200, 200, 200],
+      "musicTrack" : "/gunshop/sound/bgm/operation_srs.ogg",
+      "biome": "moon"
+    }
+  },
+  {
+    "op" : "add",
+    "path" : "/operation_srs_1",
+    "value" : {
+      "primaryDungeon" : "operation_srs_1",
+      "environmentStatusEffects" : ["gs_walk70"],
+      "threatLevel" : 1,
+      "gravity" : 80,
+      "worldSize" : [2000, 2000],
+      "dungeonBaseHeight" : 1300,
+      "dungeonSurfaceHeight" : 1200,
+      "ambientLightLevel" : [200, 200, 200],
+      "ambientNoises" : "/gunshop/sound/bgm/operation_srs.ogg",
+      "biome": "moon"
+    }
+  },
+  {
+    "op" : "add",
+    "path" : "/operation_srs_2",
+    "value" : {
+      "primaryDungeon" : "operation_srs_2",
+      "environmentStatusEffects" : ["gs_walk100"],
+      "threatLevel" : 1,
+      "gravity" : 80,
+      "worldSize" : [2000, 2000],
+      "dungeonBaseHeight" : 1300,
+      "dungeonSurfaceHeight" : 1200,
+      "ambientLightLevel" : [200, 200, 200],
+      "ambientNoises" : "/gunshop/sound/bgm/operation_srs.ogg",
+      "biome": "moon"
+    }
+  },
+  {
+    "op" : "add",
+    "path" : "/operation_srs_2_201",
+    "value" : {
+      "primaryDungeon" : "operation_srs_2_201",
+      "threatLevel" : 1,
+      "gravity" : 80,
+      "worldSize" : [2000, 2000],
+      "dungeonBaseHeight" : 1300,
+      "dungeonSurfaceHeight" : 1200,
+      "ambientLightLevel" : [200, 200, 200],
+      "ambientNoises" : "/gunshop/sound/bgm/operation_srs.ogg",
+      "biome": "moon"
+    }
+  },
+  {
+    "op" : "add",
+    "path" : "/operation_srs_2_203",
+    "value" : {
+      "primaryDungeon" : "operation_srs_2_203",
+      "threatLevel" : 1,
+      "gravity" : 80,
+      "worldSize" : [2000, 2000],
+      "dungeonBaseHeight" : 1300,
+      "dungeonSurfaceHeight" : 1200,
+      "ambientLightLevel" : [200, 200, 200],
+      "ambientNoises" : "/gunshop/sound/bgm/operation_srs.ogg",
+      "biome": "moon"
+    }
+  },
+  {
+    "op" : "add",
+    "path" : "/operation_srs_2_205",
+    "value" : {
+      "primaryDungeon" : "operation_srs_2_205",
+      "threatLevel" : 1,
+      "gravity" : 80,
+      "worldSize" : [2000, 2000],
+      "dungeonBaseHeight" : 1300,
+      "dungeonSurfaceHeight" : 1200,
+      "ambientLightLevel" : [200, 200, 200],
+      "ambientNoises" : "/gunshop/sound/bgm/operation_srs.ogg",
+      "biome": "moon"
+    }
+  },
+  {
+    "op" : "add",
+    "path" : "/operation_srs_2_304",
+    "value" : {
+      "primaryDungeon" : "operation_srs_2_304",
+      "threatLevel" : 1,
+      "gravity" : 80,
+      "worldSize" : [2000, 2000],
+      "dungeonBaseHeight" : 1300,
+      "dungeonSurfaceHeight" : 1200,
+      "ambientLightLevel" : [200, 200, 200],
+      "ambientNoises" : "/gunshop/sound/bgm/operation_srs.ogg",
+      "biome": "moon"
+    }
+  },
+  {
+    "op" : "add",
+    "path" : "/operation_srs_2_301",
+    "value" : {
+      "primaryDungeon" : "operation_srs_2_301",
+      "threatLevel" : 1,
+      "gravity" : 80,
+      "worldSize" : [2000, 2000],
+      "dungeonBaseHeight" : 1300,
+      "dungeonSurfaceHeight" : 1200,
+      "ambientLightLevel" : [200, 200, 200],
+      "ambientNoises" : "/gunshop/sound/bgm/operation_srs.ogg",
+      "biome": "moon"
+    }
+  },
+  {
+    "op" : "add",
+    "path" : "/operation_srs_2_405",
+    "value" : {
+      "primaryDungeon" : "operation_srs_2_405",
+      "threatLevel" : 1,
+      "gravity" : 80,
+      "worldSize" : [2000, 2000],
+      "dungeonBaseHeight" : 1300,
+      "dungeonSurfaceHeight" : 1200,
+      "ambientLightLevel" : [200, 200, 200],
+      "ambientNoises" : "/gunshop/sound/bgm/operation_srs.ogg",
+      "biome": "moon"
+    }
+  },
+  {
+    "op" : "add",
+    "path" : "/operation_srs_3",
+    "value" : {
+      "primaryDungeon" : "operation_srs_3",
+      "threatLevel" : 1,
+      "gravity" : 80,
+      "worldSize" : [2000, 2000],
+      "dungeonBaseHeight" : 1300,
+      "dungeonSurfaceHeight" : 1200,
+      "ambientLightLevel" : [200, 200, 200],
+      "ambientNoises" : "/gunshop/sound/bgm/operation_srs.ogg",
+      "biome": "moon"
+    }
+  },
+  {
+    "op" : "add",
+    "path" : "/operation_srs_4",
+    "value" : {
+      "primaryDungeon" : "operation_srs_4",
+      "threatLevel" : 1,
+      "gravity" : 80,
+      "worldSize" : [2000, 2000],
+      "dungeonBaseHeight" : 1300,
+      "dungeonSurfaceHeight" : 1200,
+      "ambientLightLevel" : [200, 200, 200],
+      "ambientNoises" : "/gunshop/sound/bgm/operation_srs.ogg",
+      "biome": "moon"
+    }
+  },
+  {
+    "op" : "add",
+    "path" : "/operation_gunnerscarrier_0",
+    "value" : {
+      "primaryDungeon" : "operation_gunnerscarrier_0",
+      "threatLevel" : 1,
+      "gravity" : 80,
+      "worldSize" : [2000, 2000],
+      "dungeonBaseHeight" : 1750,
+      "dungeonSurfaceHeight" : 100,
+      "ambientLightLevel" : [200, 200, 200],
+      "ambientNoises" : "/gunshop/sound/bgm/operationbase.ogg",
+      "biome": "moon"
+    }
+  },
+  {
+    "op" : "add",
+    "path" : "/operation_gunnerscarrier_armory",
+    "value" : {
+      "primaryDungeon" : "operation_gunnerscarrier_armory",
+      "threatLevel" : 1,
+      "gravity" : 80,
+      "worldSize" : [2000, 2000],
+      "dungeonBaseHeight" : 1750,
+      "dungeonSurfaceHeight" : 100,
+      "ambientLightLevel" : [200, 200, 200],
+      "ambientNoises" : "/gunshop/sound/bgm/operationbase.ogg",
+      "biome": "moon"
+    }
+  },
+  {
+    "op" : "add",
+    "path" : "/operation_gunnerscarrier_barrack",
+    "value" : {
+      "primaryDungeon" : "operation_gunnerscarrier_barrack",
+      "threatLevel" : 1,
+      "gravity" : 80,
+      "worldSize" : [2000, 2000],
+      "dungeonBaseHeight" : 1750,
+      "dungeonSurfaceHeight" : 100,
+      "ambientLightLevel" : [200, 200, 200],
+      "ambientNoises" : "/gunshop/sound/bgm/operationbase.ogg",
+      "biome": "moon"
+    }
+  },
+  {
+    "op" : "add",
+    "path" : "/operation_gunnerscarrier_cargo",
+    "value" : {
+      "primaryDungeon" : "operation_gunnerscarrier_cargo",
+      "threatLevel" : 1,
+      "gravity" : 80,
+      "worldSize" : [2000, 2000],
+      "dungeonBaseHeight" : 1750,
+      "dungeonSurfaceHeight" : 100,
+      "ambientLightLevel" : [200, 200, 200],
+      "ambientNoises" : "/gunshop/sound/bgm/operationbase.ogg",
+      "biome": "moon"
+    }
+  },
+  {
+    "op" : "add",
+    "path" : "/operation_gunnerscarrier_hanger",
+    "value" : {
+      "primaryDungeon" : "operation_gunnerscarrier_hanger",
+      "threatLevel" : 1,
+      "gravity" : 80,
+      "worldSize" : [2000, 2000],
+      "dungeonBaseHeight" : 1750,
+      "dungeonSurfaceHeight" : 100,
+      "ambientLightLevel" : [200, 200, 200],
+      "ambientNoises" : "/gunshop/sound/bgm/operationbase.ogg",
+      "biome": "moon"
+    }
+  },
+  {
+    "op" : "add",
+    "path" : "/operation_gunnerscarrier_radio",
+    "value" : {
+      "primaryDungeon" : "operation_gunnerscarrier_radio",
+      "threatLevel" : 1,
+      "gravity" : 80,
+      "worldSize" : [2000, 2000],
+      "dungeonBaseHeight" : 1750,
+      "dungeonSurfaceHeight" : 100,
+      "ambientLightLevel" : [200, 200, 200],
+      "ambientNoises" : "/gunshop/sound/bgm/operationbase.ogg",
+      "biome": "moon"
+    }
+  },
+  {
+    "op" : "add",
+    "path" : "/operation_gunnerscarrier_sonar",
+    "value" : {
+      "primaryDungeon" : "operation_gunnerscarrier_sonar",
+      "threatLevel" : 1,
+      "gravity" : 80,
+      "worldSize" : [2000, 2000],
+      "dungeonBaseHeight" : 1750,
+      "dungeonSurfaceHeight" : 100,
+      "ambientLightLevel" : [200, 200, 200],
+      "ambientNoises" : "/gunshop/sound/bgm/operationbase.ogg",
+      "biome": "moon"
+    }
+  },
+  {
+    "op" : "add",
+    "path" : "/operation_gunnerscarrier_toc",
+    "value" : {
+      "primaryDungeon" : "operation_gunnerscarrier_toc",
+      "threatLevel" : 1,
+      "gravity" : 80,
+      "worldSize" : [2000, 2000],
+      "dungeonBaseHeight" : 1750,
+      "dungeonSurfaceHeight" : 100,
+      "ambientLightLevel" : [200, 200, 200],
+      "ambientNoises" : "/gunshop/sound/bgm/operationbase.ogg",
+      "biome": "moon"
+    }
+  },
+  {
+    "op" : "add",
+    "path" : "/operation_gunnerscarrier_workshop",
+    "value" : {
+      "primaryDungeon" : "operation_gunnerscarrier_workshop",
+      "threatLevel" : 1,
+      "gravity" : 80,
+      "worldSize" : [2000, 2000],
+      "dungeonBaseHeight" : 1750,
+      "dungeonSurfaceHeight" : 100,
+      "ambientLightLevel" : [200, 200, 200],
+      "ambientNoises" : "/gunshop/sound/bgm/operationbase.ogg",
+      "biome": "moon"
+    }
+  }
+]

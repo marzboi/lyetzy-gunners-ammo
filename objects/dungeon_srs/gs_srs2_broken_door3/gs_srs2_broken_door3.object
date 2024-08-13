@@ -1,0 +1,39 @@
+{
+  "objectName" : "gs_srs2_broken_door3",
+  "category" : "crafting",
+  "rarity" : "legendary",
+  "description" : "object.",
+  "shortdescription" : "gs_srs2_broken_door3",
+  "race" : "generic",
+  "printable" : false,
+  "price" : 0,
+  
+  "apexDescription" : "A clean steel door.
+But, i can't open it.
+So, where is everyone?",
+  "avianDescription" : "A clean steel door.
+But, i can't open it.",
+  "floranDescription" : "A clean steel door.
+But, i can't open it.",
+  "glitchDescription" : "A clean steel door.
+But, i can't open it.",
+  "humanDescription" : "A clean steel door.
+But, i can't open it.",
+  "hylotlDescription" : "A clean steel door.
+But, i can't open it.",
+  "novakidDescription" : "A clean steel door.
+But, i can't open it.",
+  
+  "inventoryIcon" : "gs_srs2_broken_door3.png",
+  "orientations" : [
+	{
+	  "dualImage" : "gs_srs2_broken_door3.png:<color>.<frame>",
+	  
+	  "imagePosition" : [0, 0],
+	  "frames" : 1,
+	  "animationCycle" : 0.1,
+
+      "spaceScan" : 0.1
+	}
+  ]
+}

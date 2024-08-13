@@ -1,0 +1,27 @@
+{
+  "projectileName" : "case_medium_revolver_saa",
+  "image" : "icon.png",
+  "animationCycle" : 0.2,
+  "frameNumber" : 4,
+  "renderLayer" : "Player+1",
+  "physics" : "grenade",
+  "piercing" : true,
+  "bounces" : 0,
+  "speed" : 0,
+  "timeToLive" : 0.05,
+  "damageKindImage" : "icon.png",
+  "power" : 0,
+  "damageType" : "NoDamage",
+  "damageKind" : "default",
+  "actionOnReap" : [
+    {
+      "action" : "projectile",
+      "type" : "case_medium_revolver2_saa",
+      "angle" : -90,
+      "fuzzAngle" : 20,
+      "allowFlip" : true,
+      "offset" : [0,0.5],
+      "directional" : "true"
+    }
+  ]
+}

@@ -1,0 +1,69 @@
+{
+  "type" : "gs_medic_ge",
+  "baseType" : "gs_rifleman_ge",
+
+  "scriptConfig" : {
+    "behaviorConfig" : {
+      "emptyHands" : true
+    },
+
+    "crew" : {
+      "role" : {
+        "type" : "medic",
+        "name" : "Medic",
+        "field" : "Medical",
+        "uniformColorIndex" : 3,
+
+        "benefits" : [
+          {
+            "type" : "Regeneration",
+            "value" : 10
+          }
+        ]
+      },
+      "ranks" : [
+        "Second Lieutenant",
+        "First Lieutenant"
+      ]
+    },
+
+    "dialog" : {
+      "crewmember" : {
+        "roleDescription" : {
+          "default" : {
+            "default" : [
+              "Bereit."
+            ]
+          }
+        },
+        "fieldBenefit" : {
+          "default" : {
+            "default" : [
+              "Ich brauche ärztliche Hilfe?"
+            ]
+          }
+        },
+        "combatBenefit" : {
+          "default" : {
+            "default" : [
+              "Wo tut es weh? Sofort!"
+            ]
+          }
+        }
+      }
+    }
+  },
+
+  "items" : {
+    "default" : [
+      [0, [
+          {
+            "head" : [ { "name" : "gs_empireinmedic1" } ],
+            "chest" : [ { "name" : "gs_empireinmedic2" } ],
+            "legs" : [ { "name" : "gs_empireinmedic3" } ],
+            "primary" : [ "gs_c96" ]
+          }
+        ] ]
+    ]
+  }
+}

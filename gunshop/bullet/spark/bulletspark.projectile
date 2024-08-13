@@ -1,0 +1,18 @@
+{
+  "projectileName" : "bulletspark",
+  "image" : "bulletspark.png",
+  "physics" : "stickygrenade",
+  "animationCycle" : 0.5,
+  "piercing" : true,
+  "bounces" : 0,
+  "flippable" : true,
+  "onlyHitTerrain" : true,
+  "frameNumber" : 10,
+  "renderLayer" : "Player+1",
+  "timeToLive" : 0.5,
+  "power" : 0,
+  "speed" : 5,
+  "damageKindImage" : "/gunshop/bullet/icon.png",
+  "damageKind" : "default",
+  "fullbright" : true
+}

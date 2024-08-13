@@ -1,0 +1,8 @@
+{
+  "itemName" : "gs_aextendedmag",
+  "rarity" : "legendary",
+  "price" : 4000,
+  "inventoryIcon" : "gs_aextendedmag.png",
+  "description" : "Old world's more ingenious stuff",
+  "shortdescription" : "^#c97aff;+Extended Mag"
+}

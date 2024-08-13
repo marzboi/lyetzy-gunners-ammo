@@ -1,0 +1,22 @@
+{
+  "kind" : "gunshopdust1",
+  "definition" : {
+    "type" : "animated",
+    "animation" : "/animations/gunshopdust1/gunshopdust1.animation",
+    "position" : [0, 0],
+    "finalVelocity" : [0, 0],
+    "approach" : [50, 50],
+    "destructionAction" : "shrink",
+    "destructionTime" : 0.4,
+    "fade" : 0.4,
+    "size" : 1,
+    "layer" : "back",
+	"fullbright" : true,
+    "timeToLive" : 0.4,
+    "variance" : {
+      "initialVelocity" : [2.0, 2.0],
+      "position" : [0.3, 0.3],
+      "rotation" : 180
+    }
+  }
+}

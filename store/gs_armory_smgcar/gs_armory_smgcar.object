@@ -1,0 +1,69 @@
+{
+  "objectName" : "gs_armory_smgcar",
+  "price" : 10,
+  "colonyTags" : ["crafting"],
+  "rarity" : "Legendary",
+  "category" : "other",
+  "description" : "Gunners carrier ARMORY",
+  "shortdescription" : "^red;Side weapon",
+  "race" : "generic",
+  "printable" : false,
+
+  "apexDescription" : "ook, hoo hoo!",
+  "avianDescription" : "Tweet,tweet!",
+  "floranDescription" : "Awssssssssome!",
+  "glitchDescription" : "Beep!",
+  "humanDescription" : "YEAAAAAAH!",
+  "hylotlDescription" : "Flop,flop!",
+  "novakidDescription" : "I am sure that winchester must be the best firearm.
+Oh, Sorry SAA!",
+
+  "interactAction" : "OpenMerchantInterface",
+  "interactData" : {
+    "config" : "/interface/windowconfig/merchant.config",
+    "paneLayoutOverride" : {
+      "windowtitle" : {
+        "title" : "Gunners carrier ARMORY",
+        "subtitle" : "^green;SMG and CARBINE"
+      }
+    },
+    "buyFactor" : 1.0,
+    "sellFactor" : 0.5,
+    "items" : [
+      { "item" : { "name" : "gs_ak9" } },
+      { "item" : { "name" : "gs_berettam38" } },
+      { "item" : { "name" : "gs_bizon" } },
+      { "item" : { "name" : "gs_borz" } },
+      { "item" : { "name" : "gs_krissvector" } },
+      { "item" : { "name" : "gs_m3greasegun" } },
+      { "item" : { "name" : "gs_mp5" } },
+      { "item" : { "name" : "gs_mp18" } },
+      { "item" : { "name" : "gs_p90" } },
+      { "item" : { "name" : "gs_pps43" } },
+      { "item" : { "name" : "gs_spectrem4" } },
+      { "item" : { "name" : "gs_sten" } },
+      { "item" : { "name" : "gs_suomi" } },
+      { "item" : { "name" : "gs_thompson" } },
+      { "item" : { "name" : "gs_thompsonm1a1" } },
+      { "item" : { "name" : "gs_ump45" } },
+      { "item" : { "name" : "gs_uzi" } },
+      { "item" : { "name" : "gs_vityaz" } },
+      { "item" : { "name" : "gs_m1carbine" } },
+      { "item" : { "name" : "gs_m4a1" } },
+      { "item" : { "name" : "gs_m712" } }
+    ]
+  },
+
+  "inventoryIcon" : "gs_armory_smgcar.png:default.0",
+  "orientations" : [
+	{
+	  "dualImage" : "gs_armory_smgcar.png:<color>.<frame>",
+	  
+	  "imagePosition" : [0, 0],
+	  "frames" : 1,
+	  "animationCycle" : 0.1,
+
+      "spaceScan" : 0.1
+	}
+  ]
+}

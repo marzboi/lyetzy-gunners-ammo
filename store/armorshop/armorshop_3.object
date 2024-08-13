@@ -1,0 +1,61 @@
+{
+  "objectName" : "armorshop_3",
+  "price" : 10,
+  "colonyTags" : ["crafting"],
+  "rarity" : "uncommon",
+  "category" : "other",
+  "description" : "GUNSHOP ARMOR VENDOR",
+  "shortdescription" : "^03;^green;ARMORSHOP 3Tier",
+  "race" : "generic",
+  "printable" : false,
+
+  "apexDescription" : "ook, hoo hoo!",
+  "avianDescription" : "Tweet,tweet!",
+  "floranDescription" : "Awssssssssome!",
+  "glitchDescription" : "Beep!",
+  "humanDescription" : "YEAAAAAAH!",
+  "hylotlDescription" : "Flop,flop!",
+  "novakidDescription" : "I am sure that winchester must be the best firearm.
+Oh, Sorry SAA!",
+
+  "interactAction" : "OpenMerchantInterface",
+  "interactData" : {
+    "config" : "/store/ui/purchasing.config",
+    "filter" : [ "gunshop" ],
+    "paneLayoutOverride" : {
+      "windowtitle" : {
+        "title" : "ARMORSHOP 3Tier",
+        "subtitle" : "^red;Gunshop ARMOR Cabinet"
+      }
+    },
+    "buyFactor" : 1.0,
+    "sellFactor" : 0.2,
+    "items" : [
+	//1tier
+      { "item" : { "name" : "gs_empireinfantry1" }, "prerequisiteQuest" : "gs2tier" },
+      { "item" : { "name" : "gs_empireinfantry2" }, "prerequisiteQuest" : "gs2tier" },
+      { "item" : { "name" : "gs_empireinfantry3" }, "prerequisiteQuest" : "gs2tier" },
+      { "item" : { "name" : "gs_empiremedic1" }, "prerequisiteQuest" : "gs2tier" },
+      { "item" : { "name" : "gs_empiremedic2" }, "prerequisiteQuest" : "gs2tier" },
+      { "item" : { "name" : "gs_empiremedic3" }, "prerequisiteQuest" : "gs2tier" },
+      { "item" : { "name" : "gs_empireofficer1" }, "prerequisiteQuest" : "gs2tier" },
+      { "item" : { "name" : "gs_empireofficer2" }, "prerequisiteQuest" : "gs2tier" },
+      { "item" : { "name" : "gs_empireofficer3" }, "prerequisiteQuest" : "gs2tier" }
+    ]
+  },
+
+  "inventoryIcon" : "armorshop_3.png",
+  "orientations" : [
+    {
+      "imageLayers" : [ { "image" : "armorshop_3.png" } ],
+
+      "imagePosition" : [0, 0],
+      "frames" : 1,
+      "animationCycle" : 1.0,
+
+      "spaceScan" : 0.1,
+      "collision" : "platform",
+      "anchors" : [ "bottom" ]
+    }
+  ]
+}

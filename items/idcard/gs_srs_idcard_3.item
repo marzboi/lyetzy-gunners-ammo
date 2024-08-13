@@ -1,0 +1,9 @@
+{
+  "itemName" : "gs_srs_idcard_3",
+  "rarity" : "legendary",
+  "inventoryIcon" : "gs_srs_idcard_3.png",
+  "description" : "Protectorate S.R.S agent's id card.
+When i rubbed the blood,the name was revealed.
+'Bertha'",
+  "shortdescription" : "^green;S.R.S Pvt.ID CARD"
+}

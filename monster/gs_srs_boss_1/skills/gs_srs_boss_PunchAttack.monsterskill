@@ -1,0 +1,31 @@
+{
+  "name" : "gs_srs_boss_PunchAttack",
+  "label" : "CLAW SMASH",
+  "image" : "/monsters/generated/ground/skills/icon.png",
+
+  "parameters" : {
+    "scripts" : [ "/monster/gs_srs_boss_1/skills/gs_srs_boss_PunchAttack.lua" ],
+    "gs_srs_boss_PunchAttack" : {
+
+      "distanceRange" : [4, 8],
+      "windupTime" : 0.5,
+      "winddownTime" : 1.5,
+
+      "projectile" : {
+        "type" : "boss_smash_1",
+        "config" : {
+          "power" : 30,
+          "speed" : 10,
+          "damageKind" : "broadsword"
+        },
+        "offset" : [3.5, -1]
+      }
+    }
+  },
+
+  "animationParameters" : {
+    "sounds" : {
+      "punch" : [ "/gunshop/sound/monster/srs_boss_punch.ogg" ]
+    }
+  }
+}

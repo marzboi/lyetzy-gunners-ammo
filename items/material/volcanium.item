@@ -1,0 +1,10 @@
+{
+  "itemName" : "volcanium",
+  "price" : 1000,
+  "rarity" : "legendary",
+  "category" : "craftingMaterial",
+  "inventoryIcon" : "volcanium.png",
+  "description" : "Volcanium is extremly unstable explosive materials",
+  "shortdescription" : "Volcanium",
+  "itemTags" : [ "material" ]
+}

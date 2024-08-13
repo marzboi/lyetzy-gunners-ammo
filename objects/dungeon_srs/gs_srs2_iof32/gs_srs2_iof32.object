@@ -1,0 +1,38 @@
+{
+  "objectName" : "gs_srs2_iof32",
+  "colonyTags" : ["nature"],
+  "rarity" : "Common",
+  "category" : "decorative",
+
+
+  "description" : "srs2card",
+  "shortdescription" : "srs2card",
+  "printable" : false,
+  "race" : "protectorate",
+
+  "apexDescription" : "..I found something.",
+  "avianDescription" : "..I found something.",
+  "floranDescription" : "..I found something.",
+  "glitchDescription" : "..I found something.",
+  "humanDescription" : "..I found something.",
+  "hylotlDescription" : "..I found something.",
+  "novakidDescription" : "..I found something.",
+
+  "inventoryIcon" : "icon.png",
+  "orientations" : [
+    {
+      "dualImage" : "gs_srs2_iof32.png",
+      "imagePosition" : [0, 0],
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    }
+  ],
+
+  "scripts" : ["/objects/scripts/breakoninteract.lua"],
+  "scriptDelta" : 0,
+
+  "breakDropOptions" : [
+    [ [ "gs_iof32", 1, { } ] ]
+  ]
+}

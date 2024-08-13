@@ -1,0 +1,42 @@
+{
+  "objectName" : "gs_invisiblesound",
+  "colonyTags" : ["wired"],
+  "printable" : false,
+  "rarity" : "Common",
+  "category" : "wire",
+  "price" : 0,
+  "health" : 0.1,
+  "description" : "...",
+  "shortdescription" : "Invisible Sound Source",
+  "race" : "generic",
+
+  "smashOnBreak" : true,
+  "lightColor" : [0, 0, 0],
+
+  "inventoryIcon" : "gs_invisiblesound.png:default.1",
+  "orientations" : [
+    {
+      "image" : "gs_invisiblesound.png:default.1",
+      "imagePosition" : [-8, -8],
+      "spaces" : [ [0, 0] ],
+      "direction" : "right"
+    }
+  ],
+
+  "animation" : "gs_invisiblesound.animation",
+
+  "animationParts" : {
+    "light" : "gs_invisiblesoundhidden.png"
+  },
+  "animationPosition" : [-8, -8],
+
+  "scripts" : [ "/objects/wired/light/light.lua" ],
+  "scriptDelta" : 60,
+
+  // "interactive" : false,
+
+  "inputNodes" : [ [0, 0] ],
+
+  "soundEffect" : "/gunshop/sound/object/switch_on_spotlight_s.ogg",
+  "soundEffectRangeMultiplier" : 1.5
+}

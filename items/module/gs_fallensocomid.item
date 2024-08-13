@@ -1,0 +1,11 @@
+{
+  "itemName" : "gs_fallensocomid",
+  "rarity" : "legendary",
+  "price" : 5000,
+  "inventoryIcon" : "gs_socomkit.png",
+  "description" : "United Systems Colonial Special Operations COMmand.
+Contain old world's high magnification scope.
+This will highly increase gun's accuracy.
+^green;+20%",
+  "shortdescription" : "^#c97aff;USCSOCOM module kit"
+}

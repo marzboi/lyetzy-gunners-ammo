@@ -1,0 +1,31 @@
+{
+  "name" : "gs_srs_boss_scream",
+  "label" : "FRENZY",
+  "image" : "/monsters/generated/ground/skills/icon.png",
+
+  "parameters" : {
+    "scripts" : [ "/monster/gs_srs_boss_1/skills/gs_srs_boss_scream.lua" ],
+    "gs_srs_boss_scream" : {
+
+      "distanceRange" : [4, 8],
+      "windupTime" : 0.5,
+      "winddownTime" : 3,
+
+      "projectile" : {
+        "type" : "boss_smash_spike",
+        "config" : {
+          "power" : 60,
+          "speed" : 10,
+          "damageKind" : "broadsword"
+        },
+        "offset" : [3.5, -1]
+      }
+    }
+  },
+
+  "animationParameters" : {
+    "sounds" : {
+      "scream" : [ "/gunshop/sound/monster/srs_boss_scream.ogg" ]
+    }
+  }
+}

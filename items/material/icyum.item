@@ -1,0 +1,10 @@
+{
+  "itemName" : "icyum",
+  "price" : 1500,
+  "rarity" : "legendary",
+  "category" : "craftingMaterial",
+  "inventoryIcon" : "icyum.png",
+  "description" : "Icyum is crystal of semipermanent chill.",
+  "shortdescription" : "Refined Icyum",
+  "itemTags" : [ "material" ]
+}

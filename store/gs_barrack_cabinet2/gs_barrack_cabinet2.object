@@ -1,0 +1,52 @@
+{
+  "objectName" : "gs_barrack_cabinet2",
+  "price" : 10,
+  "colonyTags" : ["crafting"],
+  "rarity" : "Legendary",
+  "category" : "other",
+  "description" : "Gunners carrier BARRACK",
+  "shortdescription" : "^red;Combat suits",
+  "race" : "generic",
+  "printable" : false,
+
+  "apexDescription" : "ook, hoo hoo!",
+  "avianDescription" : "Tweet,tweet!",
+  "floranDescription" : "Awssssssssome!",
+  "glitchDescription" : "Beep!",
+  "humanDescription" : "YEAAAAAAH!",
+  "hylotlDescription" : "Flop,flop!",
+  "novakidDescription" : "I am sure that winchester must be the best firearm.
+Oh, Sorry SAA!",
+
+  "interactAction" : "OpenMerchantInterface",
+  "interactData" : {
+    "config" : "/interface/windowconfig/merchant.config",
+    "paneLayoutOverride" : {
+      "windowtitle" : {
+        "title" : "Gunners carrier BARRACK",
+        "subtitle" : "^green;Combat suit / Special suit"
+      }
+    },
+    "buyFactor" : 1.0,
+    "sellFactor" : 0.5,
+    "items" : [
+      { "item" : { "name" : "2_lapd_1" } },
+      { "item" : { "name" : "2_lapd_2" } },
+      { "item" : { "name" : "2_lapd_3" } }
+    ]
+  },
+
+
+  "inventoryIcon" : "gs_barrack_cabinet2.png",
+  "orientations" : [
+	{
+	  "dualImage" : "gs_barrack_cabinet2.png:<color>.<frame>",
+	  
+	  "imagePosition" : [0, 0],
+	  "frames" : 1,
+	  "animationCycle" : 0.1,
+
+      "spaceScan" : 0.1
+	}
+  ]
+}

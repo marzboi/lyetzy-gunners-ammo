@@ -1,0 +1,13 @@
+{
+	"input" : [
+    { 
+	"item" : "money",
+	"count" : 10000
+	}
+	],
+	"output" : {
+		"item" : "ep0skipradio",
+		"count" : 1
+	},
+	"groups" : [ "plain",  "all" ]
+}

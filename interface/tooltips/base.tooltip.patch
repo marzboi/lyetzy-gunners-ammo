@@ -1,0 +1,67 @@
+[
+
+{
+
+  "op": "replace",
+  "path": "/descriptionLabel",
+  "value":  {
+    "type" : "label",
+    "position" : [6, 95],
+    "hAnchor" : "left",
+    "vAnchor" : "top",
+    "wrapWidth" : 130
+  }
+		
+},
+{
+
+  "op": "replace",
+  "path": "/objectImage",
+  "value":  {
+    "type" : "image",
+    "position" : [85, 113],
+    "file" : "",
+    "centered" : true,
+    "maxSize" : [80, 30],
+    "minSize" : [80, 30]
+  }
+		
+},
+{
+
+  "op": "replace",
+  "path": "/rarityLabel",
+  "value":  {
+    "type" : "label",
+    "position" : [7, 118],
+    "hAnchor" : "left",
+    "centered" : true,
+    "wrapWidth" : 126
+  }
+		
+},
+{
+
+  "op": "replace",
+  "path": "/moneyIcon",
+  "value":  {
+    "type" : "image",
+    "position" : [7, 108],
+    "file" : "/interface/money.png"
+  }
+		
+},
+{
+
+  "op": "replace",
+  "path": "/priceLabel",
+  "value":  {
+    "type" : "label",
+    "position" : [7, 98],
+    "hAnchor" : "left",
+    "value" : "0"
+  }
+		
+}
+
+]

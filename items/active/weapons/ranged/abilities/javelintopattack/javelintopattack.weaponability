@@ -1,0 +1,56 @@
+{
+  "animationParts" : { },
+  "animationCustom" : {
+    "particleEmitters" : {
+      "altMuzzleFlash" : {
+        "active" : false,
+        "transformationGroups" : ["muzzle"],
+        "offsetPart" : "muzzleFlash",
+        "burstCount" : 3,
+        "particles" : [
+          { "particle" : "rocketbarrelpuff" }
+        ]
+      }
+    },
+    "sounds" : {
+      "physicalGuided" : [ "/sfx/gun/rocket2.ogg" ]
+    }
+  },
+
+  "ability" : {
+    "name" : "JavelinTopAttack",
+    "type" : "javelintopattack",
+    "scripts" : ["/items/active/weapons/ranged/abilities/javelintopattack/javelintopattack.lua"],
+    "class" : "JavelinRocket",
+
+    "projectileParameters" : {},
+    "fireTime" : 3.5,
+    "baseDps" : 60,
+    "energyUsage" : 10,
+    "inaccuracy" : 0.0,
+    "laserGuideLength" : 60,
+
+    "stances" : {
+      "fire" : {
+        "duration" : 0,
+        "armRotation" : 0,
+        "weaponRotation" : 0,
+        "weaponOffset" : [-0.2, 0],
+        "twoHanded" : true,
+
+        "allowRotate" : true,
+        "allowFlip" : true
+      },
+      "cooldown" : {
+        "duration" : 1.5,
+        "armRotation" : 0,
+        "weaponRotation" : 0,
+        "weaponOffset" : [-0.2, 0],
+        "twoHanded" : true,
+
+        "allowRotate" : true,
+        "allowFlip" : true
+      }
+    }
+  }
+}

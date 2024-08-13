@@ -1,0 +1,9 @@
+{
+  "name" : "gs_srs_midboss",
+  "category" : "gs_srs_midboss",
+  "type" : "body",
+
+  "frames" : {
+    "body" : "gs_srs_midboss.png"
+  }
+}

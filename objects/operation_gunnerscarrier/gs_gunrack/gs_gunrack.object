@@ -1,0 +1,31 @@
+{
+  "objectName" : "gs_gunrack",
+  "category" : "crafting",
+  "rarity" : "legendary",
+  "description" : "object.",
+  "shortdescription" : "gs_gunrack",
+  "race" : "generic",
+  "printable" : false,
+  "price" : 0,
+  
+  "apexDescription" : "",
+  "avianDescription" : "",
+  "floranDescription" : "",
+  "glitchDescription" : "",
+  "humanDescription" : "",
+  "hylotlDescription" : "",
+  "novakidDescription" : "",
+  
+  "inventoryIcon" : "gs_gunrack.png",
+  "orientations" : [
+	{
+	  "dualImage" : "gs_gunrack.png:<color>.<frame>",
+	  
+	  "imagePosition" : [0, 0],
+	  "frames" : 1,
+	  "animationCycle" : 0.1,
+
+      "spaceScan" : 0.1
+	}
+  ]
+}

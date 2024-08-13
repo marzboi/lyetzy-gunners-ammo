@@ -1,0 +1,29 @@
+{
+  "kind" : "gunshopbigsmokeanimation",
+  "definition" : {
+    "duration" : 0.02,
+    "loops" : true,
+    "start" : {
+      "particles" : [
+        []
+      ],
+      "sounds" : [
+        []
+      ]
+    },
+    "particles" : [
+      [ "gunshopbigsmokeanimation" ]
+    ],
+    "sounds" : [
+      [ ]
+    ],
+    "stop" : {
+      "particles" : [
+        [ ]
+      ],
+      "sounds" : [
+        [ ]
+      ]
+    }
+  }
+}

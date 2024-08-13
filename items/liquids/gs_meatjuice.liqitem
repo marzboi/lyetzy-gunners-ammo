@@ -1,0 +1,13 @@
+{
+  "itemName" : "gs_meatjuice",
+  "rarity" : "Common",
+  "category" : "liquid",
+  "inventoryIcon" : "gs_meatjuiceicon.png",
+  "shortdescription" : "Meat juice",
+  "description" : "Errrgh",
+
+  "liquid" : "gs_fleshjuice",
+  
+  "fuelAmount" : 1,
+  "price" : 1
+}

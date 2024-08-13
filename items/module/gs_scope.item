@@ -1,0 +1,8 @@
+{
+  "itemName" : "gs_scope",
+  "rarity" : "rare",
+  "price" : 3000,
+  "inventoryIcon" : "gs_scope.png",
+  "description" : "Old world's Magnified scope",
+  "shortdescription" : "^blue;Magnified scope"
+}

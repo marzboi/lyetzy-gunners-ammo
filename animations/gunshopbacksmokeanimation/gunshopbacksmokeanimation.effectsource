@@ -1,0 +1,29 @@
+{
+  "kind" : "gunshopbacksmokeanimation",
+  "definition" : {
+    "duration" : 0.02,
+    "loops" : true,
+    "start" : {
+      "particles" : [
+        []
+      ],
+      "sounds" : [
+        []
+      ]
+    },
+    "particles" : [
+      [ "gunshopbacksmokeanimation" ]
+    ],
+    "sounds" : [
+      [ ]
+    ],
+    "stop" : {
+      "particles" : [
+        [ ]
+      ],
+      "sounds" : [
+        [ ]
+      ]
+    }
+  }
+}

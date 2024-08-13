@@ -1,0 +1,56 @@
+{
+  "objectName" : "gs_guard_rifle_ge",
+  "colonyTags" : ["misc"],
+  "rarity" : "uncommon",
+  "description" : "Spawn grenadier elite Rifle Guard!",
+  "shortdescription" : "Grenadier Elite Rifle Guard",
+  "race" : "human",
+  "printable" : false,
+  "category" : "spawner",
+  "price" : 100,
+
+  "apexDescription" : "Reinforcement have arrived!",
+  "avianDescription" : "Reinforcement have arrived!",
+  "floranDescription" : "Reinforcement have arrived!",
+  "glitchDescription" : "Reinforcement have arrived!",
+  "humanDescription" : "Reinforcement have arrived!",
+  "hylotlDescription" : "Reinforcement have arrived!",
+
+  "inventoryIcon" : "/npc/spawner/defaulticon.png",
+  "orientations" : [
+    {
+      "image" : "gs_guard_rifle_ge.png",
+      "imagePosition" : [-8, 0],
+      "direction" : "right",
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom", "background" ]
+    }
+  ],
+
+  "scripts" : [ "/npc/spawner.lua" ],
+  "scriptDelta" : 1,
+  //6000,
+
+  "animation" : "gs_guard_rifle_ge.animation",
+
+  "animationParts" : {
+    "switch" : "gs_guard_rifle_ge.png"
+  },
+  "animationPosition" : [-8, 0],
+
+  "inputNodes" : [ ],
+  "outputNodes" : [ ],
+
+  "spawner" : {
+    "searchRadius" : 32.0,
+    "npcSpeciesOptions" : [ "human" ],
+    "npcTypeOptions" : [ "gs_guard_rifle_ge" ],
+    "npcParameterOptions" : [
+      {
+        "dropPools" : [ ]
+      }
+    ]
+  }
+
+}

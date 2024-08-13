@@ -1,0 +1,9 @@
+{
+  "itemName" : "gs_srs_pwcard_3",
+  "rarity" : "legendary",
+  "inventoryIcon" : "gs_srs_pwcard_3.png",
+  "description" : "U.S.C.M ID card.
+When i rubbed the blood,the name was revealed.
+'Jackson'",
+  "shortdescription" : "^green;U.S.C.M Sgt.ID card"
+}

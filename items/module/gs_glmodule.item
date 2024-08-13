@@ -1,0 +1,8 @@
+{
+  "itemName" : "gs_glmodule",
+  "rarity" : "legendary",
+  "price" : 5000,
+  "inventoryIcon" : "gs_glmodule.png",
+  "description" : "Old world's Grenade launcher",
+  "shortdescription" : "^#c97aff;Grenade launcher"
+}

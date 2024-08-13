@@ -1,0 +1,82 @@
+{
+  "objectName" : "gs_classicmerchant",
+  "price" : 10,
+  "colonyTags" : ["crafting"],
+  "rarity" : "Legendary",
+  "category" : "other",
+  "description" : "''Huh ho,excuse me.''",
+  "shortdescription" : "^orange;Mech.Lee",
+  "race" : "generic",
+  "printable" : false,
+
+  "apexDescription" : "ook, hoo hoo!",
+  "avianDescription" : "Tweet,tweet!",
+  "floranDescription" : "Awssssssssome!",
+  "glitchDescription" : "Beep!",
+  "humanDescription" : "YEAAAAAAH!",
+  "hylotlDescription" : "Flop,flop!",
+  "novakidDescription" : "I am sure that winchester must be the best firearm.
+Oh, Sorry SAA!",
+
+  "interactAction" : "OpenMerchantInterface",
+  "interactData" : {
+    "config" : "/interface/windowconfig/merchant.config",
+    "paneLayoutOverride" : {
+      "windowtitle" : {
+        "title" : "^orange;Mech.Lee",
+        "subtitle" : "''It's high noon.''"
+      }
+    },
+    "buyFactor" : 1.0,
+    "sellFactor" : 0.5,
+    "items" : [
+	//6tier
+      { "item" : { "name" : "gs_beretta92" } },
+      { "item" : { "name" : "gs_coltpython" } },
+      { "item" : { "name" : "gs_cz83" } },
+      { "item" : { "name" : "gs_glock17" } },
+      { "item" : { "name" : "gs_hipower" } },
+      { "item" : { "name" : "gs_nagantrevolver" } },
+      { "item" : { "name" : "gs_luger" } },
+      { "item" : { "name" : "gs_m1910" } },
+      { "item" : { "name" : "gs_m1911" } },
+      { "item" : { "name" : "gs_m1917" } },
+      { "item" : { "name" : "gs_makarov" } },
+      { "item" : { "name" : "gs_mk23" } },
+      { "item" : { "name" : "gs_p220" } },
+      { "item" : { "name" : "gs_tokarev" } },
+      { "item" : { "name" : "gs_usp45" } },
+      { "item" : { "name" : "gs_waltherppk" } },
+      { "item" : { "name" : "gs_webley" } },
+      { "item" : { "name" : "gs_deserteagle" } },
+      { "item" : { "name" : "gs_ragingbull" } },
+      { "item" : { "name" : "gs_stechkin" } },
+      { "item" : { "name" : "gs_coltsaa" } },
+      { "item" : { "name" : "gs_c96" } }
+    ]
+  },
+
+  "flickerPeriod" : 0.3,
+  "flickerMinIntensity" : 0.95,
+  "flickerMaxIntensity" : 1,
+  "flickerPeriodVariance" : 0.075,
+  "flickerIntensityVariance" : 0.025,
+  // Masking Fullbright Transparency Values: 0% brightness on lights, 75% brightness on posters in window, 70% on window
+
+
+  "inventoryIcon" : "gs_classicmerchant.png:default.0",
+  "orientations" : [
+    {
+      "imageLayers" : [ { "image" : "gs_classicmerchant.png:<color>.<frame>", "fullbright" : true }, { "image" : "gs_classicmerchantcover.png:<color>.<frame>" } ],
+
+      "lightPosition" : [0, 0],
+
+      "imagePosition" : [0, 0],
+      "frames" : 10,
+      "animationCycle" : 1.0,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    }
+  ]
+}

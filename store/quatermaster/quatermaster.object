@@ -1,0 +1,38 @@
+{
+  "objectName" : "quatermaster",
+  "price" : 10,
+  "colonyTags" : ["crafting"],
+  "rarity" : "rare",
+  "category" : "crafting",
+  "description" : "quatermaster",
+  "shortdescription" : "quatermaster",
+  "race" : "generic",
+  "printable" : false,
+
+  "apexDescription" : "She is quatermaster...but where is her men?",
+  "avianDescription" : "She is quatermaster...but where is her men?",
+  "floranDescription" : "She is quatermaster...but where is her men?",
+  "glitchDescription" : "She is quatermaster...but where is her men?",
+  "humanDescription" : "She is quatermaster...but where is her men?",
+  "hylotlDescription" : "She is quatermaster...but where is her men?",
+  "novakidDescription" : "She is quatermaster...but where is her men?",
+
+  "interactAction" : "OpenCraftingInterface",
+  "interactData" : {
+    "config" : "/store/ui/crafting.config",
+    "filter" : [ "quatermaster" ]
+  },
+  
+  "inventoryIcon" : "icon.png",
+  "orientations" : [
+	{
+	  "dualImage" : "quatermaster.png:<color>.<frame>",
+
+	  "imagePosition" : [-2.5, 0],
+	  "frames" : 50,
+	  "animationCycle" : 5,
+
+	  "spaceScan" : 0.1
+	}
+  ]
+}

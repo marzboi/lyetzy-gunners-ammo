@@ -1,0 +1,58 @@
+{
+  "objectName" : "gs_gunnerscarrier_door_toc",
+  "colonyTags" : ["ancient"],
+  "rarity" : "Legendary",
+  "category" : "other",
+  "price" : 0,
+  "printable" : false,
+
+  "description" : "A steel door",
+  "shortdescription" : "A steel door",
+  "race" : "ancient",
+
+  "apexDescription" : "A steel door.
+..Let's see what happens.",
+  "avianDescription" : "A steel door.
+..Let's see what happens.",
+  "floranDescription" : "A steel door.
+..Let's see what happens.",
+  "glitchDescription" : "A steel door.
+..Let's see what happens.",
+  "humanDescription" : "A steel door.
+..Let's see what happens.",
+  "hylotlDescription" : "A steel door.
+..Let's see what happens.",
+  "novakidDescription" : "A steel door.
+..Let's see what happens.",
+
+  "lightColor" : [0, 0, 0],
+
+  "inventoryIcon" : "icon.png",
+  "orientations" : [
+    {
+      "imageLayers" : [ { "image" : "gs_gunnerscarrier_door_toc.png:<color>.<frame>", "fullbright" : true }, { "image" : "gs_gunnerscarrier_door_toclit.png:<color>.<frame>" } ],
+      "imagePosition" : [0, 0],
+      "animationPosition" : [0, 0],
+      "spaceScan" : 0.1,
+
+      "anchors" : [ "bottom" ],
+      "direction" : "right",
+
+      "lightPosition" : [0, 3],
+
+      "detectArea" : [ [-3, 0], [3, 5] ]
+    }
+  ],
+
+  "animation" : "gs_gunnerscarrier_door_toc.animation",
+  "animationParts" : {
+    "bg" : "gs_gunnerscarrier_door_toc.png",
+    "fg" : "gs_gunnerscarrier_door_toclit.png"
+  },
+
+  "scripts" : [ "gs_gunnerscarrier_door_toc.lua" ],
+  "scriptDelta" : 20,
+
+  "messagePlayerInterval" : 0.5,
+  "messagePlayerRange" : 30
+}

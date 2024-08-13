@@ -1,0 +1,8 @@
+{
+  "itemName" : "gs_licence_socom",
+  "rarity" : "rare",
+  "price" : 5000,
+  "inventoryIcon" : "gs_licence.png",
+  "description" : "U.S.C.M Special Operations Command issue licence.",
+  "shortdescription" : "^#5edcff;SOCOM issue Licence"
+}

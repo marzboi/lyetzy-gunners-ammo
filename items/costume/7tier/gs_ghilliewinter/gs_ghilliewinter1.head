@@ -1,0 +1,36 @@
+{
+  "itemName" : "gs_ghilliewinter1",
+  "inventoryIcon" : "icons.png:head",
+  "dropCollision" : [-4.0, -3.0, 4.0, 3.0],
+  "rarity" : "legendary",
+  "price" : 30000,
+  "shortdescription" : "^03a;^yellow;Winter Ghilliesuit^white; - Helmet",
+  "description" : "Camouflage clothing
+^green;DAMAGE+++
+^red;NO HEALTH BONUS",
+  "inspectionKind" : "armor",
+  "tooltipKind" : "armor",
+
+  "maleFrames" : "head.png",
+  "femaleFrames" : "head.png",
+  "mask" : "mask.png",
+
+  "level" : 7,
+  "leveledStatusEffects" : [
+    {
+      "levelFunction" : "standardArmorLevelPowerMultiplierMultiplier",
+      "stat" : "powerMultiplier",
+      "baseMultiplier" : 1.2
+    },
+    {
+      "levelFunction" : "standardArmorLevelProtectionMultiplier",
+      "stat" : "protection",
+      "amount" : 0.3
+    },
+    {
+      "levelFunction" : "standardArmorLevelMaxEnergyMultiplier",
+      "stat" : "maxEnergy",
+      "amount" : 3
+    }
+  ]
+}

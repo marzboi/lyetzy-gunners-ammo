@@ -1,0 +1,29 @@
+{
+  "objectName" : "gs_srs2_deadbody6",
+  "category" : "crafting",
+  "rarity" : "legendary",
+  "description" : "object.",
+  "shortdescription" : "gs_srs2_deadbody6",
+  "race" : "generic",
+  "printable" : false,
+  "price" : 0,
+  
+  "apexDescription" : "R.I.P",
+  "avianDescription" : "R.I.P",
+  "floranDescription" : "R.I.P",
+  "glitchDescription" : "R.I.P",
+  "humanDescription" : "R.I.P",
+  "hylotlDescription" : "R.I.P",
+  "novakidDescription" : "R.I.P",
+  
+  "inventoryIcon" : "gs_srs2_deadbody6.png",
+  "orientations" : [
+	{
+	  "dualImage" : "gs_srs2_deadbody6.png:<color>.<frame>",
+	  
+	  "imagePosition" : [0, 0],
+	  "frames" : 1,
+	  "animationCycle" : 0.1
+	}
+  ]
+}

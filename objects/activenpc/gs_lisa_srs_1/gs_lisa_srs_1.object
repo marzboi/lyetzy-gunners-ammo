@@ -1,0 +1,46 @@
+{
+  "objectName" : "gs_lisa_srs_1",
+  "category" : "crafting",
+  "rarity" : "rare",
+  "description" : "Heeeey",
+  "shortdescription" : "lisa",
+  "race" : "generic",
+  "printable" : false,
+  "price" : 0,
+
+  "apexDescription" : "Who is she?",
+  "avianDescription" : "Who is she?",
+  "floranDescription" : "Who is she?",
+  "glitchDescription" : "Who is she?",
+  "humanDescription" : "Who is she?",
+  "hylotlDescription" : "Who is she?",
+
+  "interactAction" : "OpenMerchantInterface",
+  "interactData" : {
+    "config" : "/objects/activenpc/gs_lisa_srs_1/gs_lisa_srs_1.config",
+    "paneLayoutOverride" : {
+      "windowtitle" : {
+        "title" : "^red;Lt.Lisa",
+        "subtitle" : "Survivor"
+      }
+    },
+    "buyFactor" : 1.0,
+    "sellFactor" : 0.2,
+    "items" : [
+    ]
+  },
+  
+  "inventoryIcon" : "icon.png",
+  "orientations" : [
+	{
+	  "dualImage" : "gs_lisa_srs_1.png:<color>.<frame>",
+
+	  "imagePosition" : [0, 0],
+	  "frames" : 10,
+	  "animationCycle" : 1.0,
+
+	  "spaceScan" : 0.1
+	}
+  ]
+  
+}

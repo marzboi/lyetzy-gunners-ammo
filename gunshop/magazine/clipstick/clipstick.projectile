@@ -1,0 +1,26 @@
+{
+  "projectileName" : "clipstick",
+  "image" : "icon.png",
+  "animationCycle" : 0.2,
+  "renderLayer" : "Player+1",
+  "frameNumber" : 4,
+  "physics" : "grenade",
+  "piercing" : true,
+  "bounces" : 3,
+  "speed" : 100,
+  "timeToLive" : 0.05,
+  "damageKindImage" : "icon.png",
+  "power" : 0,
+  "damageType" : "NoDamage",
+  "damageKind" : "default",
+  "actionOnReap" : [
+    {
+      "action" : "projectile",
+      "type" : "clipstick2",
+      "directional" : "true",
+      "allowFlip" : true,
+      "offset" : [0,-0.5],
+      "fuzzAngle" : 10
+    }
+  ]
+}

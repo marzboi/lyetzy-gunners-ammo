@@ -1,0 +1,8 @@
+{
+  "itemName" : "gs_licence_ng",
+  "rarity" : "rare",
+  "price" : 5000,
+  "inventoryIcon" : "gs_licence.png",
+  "description" : "Native Guard issue licence.",
+  "shortdescription" : "^#5edcff;NG issue Licence"
+}

@@ -1,0 +1,29 @@
+{
+  "kind" : "gunshopdust1",
+  "definition" : {
+    "duration" : 0.005,
+    "loops" : true,
+    "start" : {
+      "particles" : [
+        []
+      ],
+      "sounds" : [
+        []
+      ]
+    },
+    "particles" : [
+      [ "gunshopdust1" ]
+    ],
+    "sounds" : [
+      [ ]
+    ],
+    "stop" : {
+      "particles" : [
+        [ ]
+      ],
+      "sounds" : [
+        [ ]
+      ]
+    }
+  }
+}

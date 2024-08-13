@@ -1,0 +1,25 @@
+{
+  "projectileName" : "hg_speedloader",
+  "image" : "icon.png",
+  "animationCycle" : 0.2,
+  "renderLayer" : "Player+1",
+  "frameNumber" : 4,
+  "physics" : "laser",
+  "piercing" : true,
+  "bounces" : 3,
+  "speed" : 100,
+  "timeToLive" : 0.1,
+  "damageKindImage" : "icon.png",
+  "power" : 0,
+  "damageType" : "NoDamage",
+  "damageKind" : "default",
+  "actionOnReap" : [
+    {
+      "action" : "projectile",
+      "type" : "hg_speedloader2",
+      "offset" : [0,-0.5],
+      "directional" : "true",
+      "fuzzAngle" : 10
+    }
+  ]
+}

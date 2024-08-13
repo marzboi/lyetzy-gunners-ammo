@@ -1,0 +1,23 @@
+{
+  "metadata" : {
+    "name" : "operation_srs_2_205",
+    "species" : "generic",
+    "rules" : [
+    ],
+    "anchor" : [ "operation_srs_2_205" ],
+    "gravity" : 80,
+    "maxRadius" : 1000000,
+    "maxParts" : 100,
+    "protected" : true
+  },
+
+  "parts" : [
+    {
+      "name" : "operation_srs_2_205",
+      "rules" : [
+        [ "maxSpawnCount", [1] ]
+      ],
+      "def" : [ "tmx", "operation_srs_2_205.json" ]
+    }
+  ]
+}

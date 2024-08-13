@@ -1,0 +1,26 @@
+{
+  "projectileName" : "case_link",
+  "image" : "case_link.png",
+  "animationCycle" : 0.0,
+  "frameNumber" : 4,
+  "renderLayer" : "Player+1",
+  "physics" : "grenade",
+  "piercing" : true,
+  "bounces" : 0,
+  "speed" : 0.0,
+  "timeToLive" : 0,
+  "damageKindImage" : "icon.png",
+  "power" : 0,
+  "damageType" : "NoDamage",
+  "damageKind" : "default",
+  "actionOnReap" : [
+    {
+      "action" : "projectile",
+      "type" : "case_link1",
+      "allowFlip" : true,
+      "angle" : 90,
+      "offset" : [0.5,0],
+      "directional" : "true"
+    }
+  ]
+}

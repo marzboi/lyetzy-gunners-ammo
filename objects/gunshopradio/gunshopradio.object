@@ -1,0 +1,52 @@
+{
+  "objectName" : "gunshopradio",
+  "colonyTags" : ["ancient"],
+  "rarity" : "Legendary",
+  "price" : 0,
+  "printable" : false,
+
+  "description" : 
+  "Barely be survived, you turn on the radio that was left over on your ship, and heard something.",
+  "shortdescription" : "^yellow;Lyetzi's Gunners mod EP.0",
+  "category" : "^red;Difficulty : 1Tier",
+  "race" : "ancient",
+
+  "apexDescription" : "Hm.. Eventhough humankind is collapsed, its music still keeps playing.",
+  "avianDescription" : "Hm.. Eventhough humankind is collapsed, its music still keeps playing.",
+  "floranDescription" : "Hm.. Eventhough humankind isss collapsed, its music ssstill keepsss playing.",
+  "glitchDescription" : "Hm.. Eventhough humankind is collapsed, its noise still keeps playing.",
+  "humanDescription" : "Hm.. Eventhough humankind is collapsed, its music still keeps playing.",
+  "hylotlDescription" : "Hm.. Eventhough humankind is collapsed, its music still keeps playing.",
+  "novakidDescription" : "Hm.. Eventhough humankind is collapsed, its music still keeps playing.",
+
+  "lightColor" : [76, 60, 86],
+
+  "inventoryIcon" : "icon.png",
+  "orientations" : [
+    {
+      "imageLayers" : [ { "image" : "gunshopradio.png:<color>.<frame>", "fullbright" : true }, { "image" : "gunshopradiolit.png:<color>.<frame>" } ],
+      "imagePosition" : [-16, 0],
+      "animationPosition" : [-16, 0],
+      "spaceScan" : 0.1,
+
+      "anchors" : [ "bottom" ],
+      "direction" : "right",
+
+      "lightPosition" : [0, 3],
+
+      "detectArea" : [ [-3, 0], [3, 5] ]
+    }
+  ],
+
+  "animation" : "gunshopradio.animation",
+  "animationParts" : {
+    "bg" : "gunshopradio.png",
+    "fg" : "gunshopradiolit.png"
+  },
+
+  "scripts" : [ "gunshopradio.lua" ],
+  "scriptDelta" : 20,
+
+  "messagePlayerInterval" : 0.5,
+  "messagePlayerRange" : 30
+}

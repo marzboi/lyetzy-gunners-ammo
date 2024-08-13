@@ -1,0 +1,37 @@
+{
+  "itemName" : "2_lapd_1",
+  "inventoryIcon" : "icons.png",
+  "dropCollision" : [-4.0, -3.0, 4.0, 3.0],
+  "rarity" : "common",
+  "price" : 500,
+  "shortdescription" : "^yellow;Protectorate L.A.P.D^white; Cap",
+  "description" : "Local Area Police Department uniform
+^green;DAMAGE+
+^green;HEALTH++
+^red;ENERGY-",
+  "inspectionKind" : "armor",
+  "tooltipKind" : "armor",
+
+  "maleFrames" : "head.png",
+  "femaleFrames" : "head.png",
+  "mask" : "mask.png",
+
+  "level" : 2,
+  "leveledStatusEffects" : [
+    {
+      "levelFunction" : "standardArmorLevelPowerMultiplierMultiplier",
+      "stat" : "powerMultiplier",
+      "baseMultiplier" : 1.15
+    },
+    {
+      "levelFunction" : "standardArmorLevelProtectionMultiplier",
+      "stat" : "protection",
+      "amount" : 0.3
+    },
+    {
+      "levelFunction" : "standardArmorLevelMaxHealthMultiplier",
+      "stat" : "maxHealth",
+      "amount" : 9
+    }
+  ]
+}

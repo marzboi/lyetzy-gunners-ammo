@@ -1,0 +1,53 @@
+{
+  "type" : "gs_chemist_us",
+  "baseType" : "gs_rifleman_us",
+
+  // This npctype is used just as a base for the other crewmemberchemist*
+  // npctypes. Don't use it directly for spawning NPCs.
+
+  "scriptConfig" : {
+    "behaviorConfig" : {
+      "emptyHands" : true
+    },
+
+    "crew" : {
+      "role" : {
+        "type" : "Officer",
+        "name" : "Officer",
+        "field" : "Officer",
+        "uniformColorIndex" : 6
+      }
+    },
+
+    "dialog" : {
+      "crewmember" : {
+        "roleDescription" : {
+          "default" : {
+            "default" : [
+              "I'll give you a boost whenever we're on the ship!",
+              "I'll give everyone on the ship buffs whilst we're on board!"
+            ]
+          }
+        },
+        "combatBenefit" : {
+          "default" : {
+            "default" : [
+              "Take this!",
+              "Charge!!",
+              "I'll cover you!"
+            ]
+          }
+        }
+      }
+    }
+  },
+
+  "items" : {
+    "default" : [
+      [0, [
+          {
+          }
+        ] ]
+    ]
+  }
+}

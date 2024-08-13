@@ -1,0 +1,43 @@
+{
+  "objectName" : "gs_breakableroof",
+  "colonyTags" : ["scorched"],
+  "rarity" : "Common",
+  "category" : "decorative",
+  "price" : 55,
+  "description" : "breakable roof",
+  "shortdescription" : "breakabledoor",
+  "race" : "generic",
+  "breakDropOptions" : [],
+
+  "apexDescription" : "..Let's blow this up!",
+  "avianDescription" : "..Let's blow this up!",
+  "floranDescription" : "..Let's blow this up!",
+  "glitchDescription" : "..Let's blow this up!",
+  "humanDescription" : "..Let's blow this up!",
+  "hylotlDescription" : "..Let's blow this up!",
+  "novakidDescription" : "..Let's blow this up!",
+
+  "inventoryIcon" : "icon.png",
+  "orientations" : [
+    {
+      "dualImage" : "gs_breakableroof.png:<color>.<frame>",
+      "imagePosition" : [0, 0],
+
+      "spaceScan" : 0.1,
+	  "collisionSpaces" : [ [0, 1], [1, 1], [2, 1], [3, 1], [4, 1] ],
+	  "collision" : "solid"
+    }
+  ],
+
+  "smashable" : true,
+  "smashParticles" : [ { "count" : 10, "particle" : "generatorshard" }, { "count" : 10, "particle" : "generatorredshard" }, { "count" : 10, "particle" : "generatorglassshard" } ],
+  "smashSounds" : [ "/sfx/gun/grenadeblast1.ogg", "/sfx/gun/grenadeblast2.ogg", "/sfx/gun/grenadeblast3.ogg" ],
+  "health" : 15,
+  "smashDropPool" : "empty",
+  
+  "scripts" : [
+    "/objects/scripts/explodingsmashable.lua"
+  ],
+  "explosionProjectile" : "explosivebarrel",
+  "explosionOffset" : [0, 2]
+}

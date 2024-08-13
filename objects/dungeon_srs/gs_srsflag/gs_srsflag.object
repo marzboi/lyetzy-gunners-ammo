@@ -1,0 +1,38 @@
+{
+  "objectName" : "gs_srsflag",
+  "category" : "crafting",
+  "rarity" : "legendary",
+  "description" : "object.",
+  "shortdescription" : "gs_srsflag",
+  "race" : "generic",
+  "printable" : false,
+  "price" : 0,
+  
+  "apexDescription" : "Search and rescue service flag.
+It was protectorate affiliated organization.",
+  "avianDescription" : "Search and rescue service flag.
+It was protectorate affiliated organization.",
+  "floranDescription" : "Search and rescue service flag.
+It was protectorate affiliated organization.",
+  "glitchDescription" : "Search and rescue service flag.
+It was protectorate affiliated organization.",
+  "humanDescription" : "Search and rescue service flag.
+It was protectorate affiliated organization.",
+  "hylotlDescription" : "Search and rescue service flag.
+It was protectorate affiliated organization.",
+  "novakidDescription" : "Search and rescue service flag.
+It was protectorate affiliated organization.",
+  
+  "inventoryIcon" : "gs_srsflag.png",
+  "orientations" : [
+	{
+	  "dualImage" : "gs_srsflag.png:<color>.<frame>",
+	  
+	  "imagePosition" : [0, 0],
+	  "frames" : 1,
+	  "animationCycle" : 0.1,
+
+      "spaceScan" : 0.1
+	}
+  ]
+}

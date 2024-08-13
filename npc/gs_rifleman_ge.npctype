@@ -1,0 +1,178 @@
+{
+  "type" : "gs_rifleman_ge",
+  "baseType" : "gs_base",
+
+  "dropPools" : [ "villagertreasure" ],
+
+  "damageTeamType" : "friendly",
+
+  // Remove protection and powermultiplier gained from being level 1 as scaling is from player armor
+  "innateStatusEffects" : [ { "stat" : "protection", "amount": -25 }, {"stat" : "powerMultiplier", "amount" : -0.5} ], 
+
+  "persistent" : true,
+
+  "scriptConfig" : {
+    "behavior" : "gunshopcrewmember",
+    "behaviorConfig" : {
+      "emptyHands" : false,
+
+      // Wander behavior config
+      "wanderTime" : 1,
+      "idleTime" : 10,
+      "outerHomeRange" : 20,
+      "innerHomeRange" : 15,
+
+      "hostileDamageTeam" : {"type" : "friendly", "team" : 1}
+    },
+
+    "crew" : {
+      "recruitable" : true,
+
+      "recruitInteractAction" : {
+        "messageType" : "recruits.offerRecruit",
+        "messageArgs" : []
+      },
+
+      "powerMultiplierExponent" : 1.0,
+
+      "role" : {
+        "type" : "soldier",
+        "name" : "Rifleman",
+        "field" : "Infantry",
+        "uniformColorIndex" : 4
+      },
+
+      "ranks" : [
+        "Private First Class",
+        "Corporal",
+        "Sergeant"
+      ],
+
+      "defaultUniform" : {
+        "head" : "gs_empireinfantry1",
+        "chest" : "gs_empireinfantry2",
+        "legs" : "gs_empireinfantry3"
+      },
+      "uniformSlots" : ["head", "chest", "chestCosmetic", "legs", "legsCosmetic", "back", "backCosmetic"]
+    },
+
+    "questGenerator" : {
+      // Disable participation of crewmembers in generated quests until the
+      // generated quest system knows how to deal with entities that can
+      // disappear from the world and/or change uniqueId.
+      "enableParticipation" : false
+    },
+
+    "dialog" : {
+      "crewmember" : {
+        "offer" : {
+          "default" : {
+            "default" : [
+              "Guten Morgen, Sir!"
+            ]
+          }
+        },
+        "roleDescription" : {
+          "default" : {
+            "default" : [
+              "<selfname> Vorwärts!"
+            ]
+          }
+        },
+        "respawned" : {
+          "default" : {
+            "default" : [
+              "<selfname> Vorwärts!"
+            ]
+          }
+        },
+        "unfollow" : {
+          "default" : {
+            "default" : [
+              "Jawohl!"
+            ]
+          }
+        },
+        "follow" : {
+          "default" : {
+            "default" : [
+              "Jawohl! Ich werde dir folgen."
+            ]
+          }
+        },
+        "cantreach" : {
+          "default" : {
+            "default" : [
+              "Tut mir leid!"
+            ]
+          }
+		}
+      },
+
+      "tenant" : {
+        "grumbles" : {
+          "tagCriteria" : "/npc/grumble.config:tagCriteria",
+          "enclosedArea" : "/npc/grumble.config:enclosedArea",
+          "otherDeed" : "/npc/grumble.config:otherDeed",
+          "severe" : "/npc/grumble.config:severe",
+          "final" : "/npc/grumble.config:final"
+        },
+        "arrivedHome" : {
+          "beacon" : "/npc/arrivedhome.config:beacon",
+          "rent" : "/npc/arrivedhome.config:rent"
+        }
+      },
+
+      "converse" : "/npc/crewmember.config:converse",
+
+      "attack" : "/npc/combat_ge.config:attack",
+      "reattack" : "/npc/combat_ge.config:reattack",
+      "killedTarget" : "/npc/combat_ge.config:killedTarget",
+      "lostTarget" : "/npc/combat_ge.config:lostTarget",
+      "outOfSight" : "/npc/combat_ge.config:outOfSight",
+      "cheerOn" : "/npc/combat_ge.config:cheerOn",
+      "cantReach" : "/npc/combat_ge.config:cantReach"
+    }
+  },
+
+  "movementParameters" : {
+    // Run at the same speed as the player
+    "runSpeed" : 14.0
+  },
+
+  "items" : {
+    "default" : [
+      [0, [
+          {
+            "head" : [ { "name" : "gs_empireinfantry1" } ],
+            "chest" : [ { "name" : "gs_empireinfantry2" } ],
+            "legs" : [ { "name" : "gs_empireinfantry3" } ],
+            "primary" : [ "gs_dreyse" ]
+          }
+        ] ]
+    ]
+  },
+
+  "statusControllerSettings" : {
+    "statusProperties" : {
+      "hitInvulnerability" : true,
+      "hitInvulnerabilityThreshold" : 0.0333,
+      "hitInvulnerabilityTime" : 1,
+      "hitInvulnerabilityFlash" : 0.15,
+      "damageFlashOnDirectives" : "",
+      "damageFlashOffDirectives" : ""
+    },
+
+    "stats" : {
+      "maxHealth" : {
+        "baseValue" : 300.0
+      },
+      "powerMultiplier" : {
+        "baseValue" : 0.3
+      },
+      "healthRegen" : {
+        "baseValue" : 2.0
+      }
+    }
+  }
+}

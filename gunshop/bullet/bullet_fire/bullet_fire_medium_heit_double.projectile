@@ -1,0 +1,46 @@
+{
+  "projectileName" : "bullet_fire_medium_heit_double",
+  "image" : "/gunshop/bullet/icon.png",
+  "lightColor" : [90, 90, 60],
+  "pointLight" : true,
+  "animationCycle" : 0.25,
+  "piercing" : true,
+  "bounces" : 0,
+  "frameNumber" : 1,
+  "timeToLive" : 0.0,
+  "actionOnReap" : [
+    {
+      "action" : "projectile",
+      "type" : "bullet_head_heit",
+      "inheritDamageFactor" : 1,
+      "directional" : "true"
+    },
+    {
+      "action" : "projectile",
+      "type" : "bullet_head_heit",
+      "inheritDamageFactor" : 1,
+      "fuzzAngle" : 1,
+      "directional" : "true",
+      "delaySteps" : 5
+    },
+    {
+      "action" : "projectile",
+      "type" : "case_medium_heit",
+      "inheritDamageFactor" : 0,
+      "fuzzAngle" : 90,
+      "directional" : "true"
+    },
+    {
+      "action" : "projectile",
+      "type" : "case_medium_heit",
+      "inheritDamageFactor" : 0,
+      "fuzzAngle" : 90,
+      "directional" : "true",
+      "delaySteps" : 5
+    }
+  ],
+  "power" : 0,
+  "speed" : 0,
+  "damageType" : "NoDamage",
+  "damageKind" : "default"
+}

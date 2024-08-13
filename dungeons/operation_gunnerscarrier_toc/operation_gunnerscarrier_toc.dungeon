@@ -1,0 +1,23 @@
+{
+  "metadata" : {
+    "name" : "operation_gunnerscarrier_toc",
+    "species" : "generic",
+    "rules" : [
+    ],
+    "anchor" : [ "operation_gunnerscarrier_toc" ],
+    "gravity" : 80,
+    "maxRadius" : 1000000,
+    "maxParts" : 100,
+    "protected" : true
+  },
+
+  "parts" : [
+    {
+      "name" : "operation_gunnerscarrier_toc",
+      "rules" : [
+        [ "maxSpawnCount", [1] ]
+      ],
+      "def" : [ "tmx", "operation_gunnerscarrier_toc.json" ]
+    }
+  ]
+}

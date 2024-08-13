@@ -1,0 +1,25 @@
+{
+	"input" : [
+    { 
+	"item" : "money", 
+	"count" : 1000
+	},
+    { 
+	"item" : "gs_srs_idcard_1", 
+	"count" : 1
+	},
+    { 
+	"item" : "gs_srs_idcard_2", 
+	"count" : 1
+	},
+    { 
+	"item" : "gs_srs_idcard_3", 
+	"count" : 1
+	}
+	],
+	"output" : {
+		"item" : "gs_mosin",
+		"count" : 1
+	},
+	"groups" : [ "srs",  "quatermaster" ]
+}

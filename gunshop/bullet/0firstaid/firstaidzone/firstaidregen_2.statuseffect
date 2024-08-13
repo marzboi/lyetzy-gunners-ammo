@@ -1,0 +1,18 @@
+{
+  "name" : "firstaidregen_2",
+  "blockingStat" : "healingStatusImmunity",
+
+  "effectConfig" : {
+    "healTime" : 5
+  },
+  "defaultDuration" : 0.5,
+
+  "scripts" : [
+    "firstaidregen.lua"
+  ],
+
+  "animationConfig" : "firstaidregen.animation",
+
+  "label" : "First Aid",
+  "icon" : "/interface/statuses/heal.png"
+}

@@ -1,0 +1,105 @@
+[ 
+{
+"op":"add",
+"path":"/gunshopmissileup0",
+"value":{
+    "mass" : 1.0,
+    "gravityMultiplier" : -0.5,
+    "bounceFactor" : 0.0,
+    "maxMovementPerStep" : 0.4,
+
+    "collisionPoly" : [ [-0.25, -0.25], [0.25, -0.25], [0.25, 0.25], [-0.25, 0.25] ],
+    "ignorePlatformCollision" : true,
+
+    "airFriction" : 0.0,
+    "liquidFriction" : 0.0,
+    "speedLimit" : null,
+    "maximumCorrection" : 0.75
+}
+},{
+"op":"add",
+"path":"/gunshopmissiledown0",
+"value":{
+    "mass" : 1.0,
+    "gravityMultiplier" : 0.5,
+    "bounceFactor" : 0.0,
+    "maxMovementPerStep" : 0.4,
+
+    "collisionPoly" : [ [-0.25, -0.25], [0.25, -0.25], [0.25, 0.25], [-0.25, 0.25] ],
+    "ignorePlatformCollision" : true,
+
+    "airFriction" : 0.0,
+    "liquidFriction" : 0.0,
+    "speedLimit" : null,
+    "maximumCorrection" : 0.75
+}
+},{
+"op":"add",
+"path":"/gunshopmissileup1",
+"value":{
+    "mass" : 1.0,
+    "gravityMultiplier" : -1.0,
+    "bounceFactor" : 0.0,
+    "maxMovementPerStep" : 0.4,
+
+    "collisionPoly" : [ [-0.25, -0.25], [0.25, -0.25], [0.25, 0.25], [-0.25, 0.25] ],
+    "ignorePlatformCollision" : true,
+
+    "airFriction" : 0.0,
+    "liquidFriction" : 0.0,
+    "speedLimit" : null,
+    "maximumCorrection" : 0.75
+}
+},{
+"op":"add",
+"path":"/gunshopmissiledown1",
+"value":{
+    "mass" : 1.0,
+    "gravityMultiplier" : 1.0,
+    "bounceFactor" : 0.0,
+    "maxMovementPerStep" : 0.4,
+
+    "collisionPoly" : [ [-0.25, -0.25], [0.25, -0.25], [0.25, 0.25], [-0.25, 0.25] ],
+    "ignorePlatformCollision" : true,
+
+    "airFriction" : 0.0,
+    "liquidFriction" : 0.0,
+    "speedLimit" : null,
+    "maximumCorrection" : 0.75
+}
+},{
+"op":"add",
+"path":"/gunshopmissileup2",
+"value":{
+    "mass" : 1.0,
+    "gravityMultiplier" : -2.0,
+    "bounceFactor" : 0.0,
+    "maxMovementPerStep" : 0.4,
+
+    "collisionPoly" : [ [-0.25, -0.25], [0.25, -0.25], [0.25, 0.25], [-0.25, 0.25] ],
+    "ignorePlatformCollision" : true,
+
+    "airFriction" : 0.0,
+    "liquidFriction" : 0.0,
+    "speedLimit" : null,
+    "maximumCorrection" : 0.75
+}
+},{
+"op":"add",
+"path":"/gunshopmissiledown2",
+"value":{
+    "mass" : 1.0,
+    "gravityMultiplier" : 2.0,
+    "bounceFactor" : 0.0,
+    "maxMovementPerStep" : 0.4,
+
+    "collisionPoly" : [ [-0.25, -0.25], [0.25, -0.25], [0.25, 0.25], [-0.25, 0.25] ],
+    "ignorePlatformCollision" : true,
+
+    "airFriction" : 0.0,
+    "liquidFriction" : 0.0,
+    "speedLimit" : null,
+    "maximumCorrection" : 0.75
+}
+}
+]

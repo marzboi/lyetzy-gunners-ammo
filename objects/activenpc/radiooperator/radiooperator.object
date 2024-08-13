@@ -1,0 +1,41 @@
+{
+  "objectName" : "radiooperator",
+  "category" : "crafting",
+  "rarity" : "rare",
+  "description" : "radiooperator",
+  "shortdescription" : "radiooperator",
+  "race" : "generic",
+  
+  "interactAction" : "OpenCraftingInterface",
+  "interactData" : {
+    "config" : "/objects/activenpc/radiooperator/radiooperator.config",
+    "filter" : [ "radiooperator" ]
+  },
+  "printable" : false,
+  "price" : 0,
+
+  "apexDescription" : "Radio Operator.",
+  "avianDescription" : "Radio Operator.",
+  "floranDescription" : "Radio Operator.",
+  "glitchDescription" : "Radio Operator.",
+  "humanDescription" : "Radio Operator.",
+  "hylotlDescription" : "Radio Operator.",
+
+  "lightColor" : [200, 200, 200],
+  
+  "inventoryIcon" : "icon.png",
+  "orientations" : [
+	{
+	  "dualImage" : "radiooperator.png:<color>.<frame>",
+
+	  "imagePosition" : [-2.5, 0],
+	  "frames" : 50,
+	  "animationCycle" : 5.0,
+
+	  "spaceScan" : 0.1
+	}
+  ],
+
+  "soundEffect" : "/gunshop/sound/object/radio.ogg",
+  "soundEffectRangeMultiplier" : 0.3
+}

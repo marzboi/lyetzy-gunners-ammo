@@ -1,0 +1,16 @@
+{
+  "name" : "gs_walk70",
+  "blockingStat" : "wetImmunity",
+  
+  "effectConfig" : {},
+  "defaultDuration" : 1.5,
+
+  "scripts" : [
+    "gs_walk70.lua"
+  ],
+
+  "animationConfig" : "gs_walk70.animation",
+
+  "label" : "Slightly Cautious",
+  "icon" : "/interface/statuses/oldpoison.png"
+}

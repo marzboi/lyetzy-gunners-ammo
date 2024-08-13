@@ -1,0 +1,46 @@
+{
+  "objectName" : "gunshopammo40reload",
+  "colonyTags" : ["storage"],
+  "rarity" : "Common",
+  "objectType" : "container",
+  "tooltipKind" : "container",
+
+  "category" : "Auto reloader",
+  "price" : 75,
+  "description" : "40mm Auto reloader",
+  "shortdescription" : "40mm AA Auto reloader",
+  "race" : "generic",
+  "health" : 1.5,
+
+  "apexDescription" : "40mm Anti-Air Shell Auto reloader.",
+  "avianDescription" : "40mm Anti-Air Shell Auto reloader.",
+  "floranDescription" : "40mm Anti-Air Shell Auto reloader.",
+  "glitchDescription" : "40mm Anti-Air Shell Auto reloader.",
+  "humanDescription" : "40mm Anti-Air Shell Auto reloader.",
+  "hylotlDescription" : "40mm Anti-Air Shell Auto reloader.",
+  "novakidDescription" : "40mm Anti-Air Shell Auto reloader.",
+
+  "inventoryIcon" : "gunshopammo40reloadicon.png",
+  "orientations" : [
+    {
+	  "dualImage" : "gunshopammo40reload.png:<color>.<frame>",
+
+      "imagePosition" : [-8, 0],
+      "frames" : 5,
+      "animationCycle" : 0.5,
+
+      "spaceScan" : 0.1
+
+    }
+  ],
+
+  "openSounds" : [ "/sfx/objects/woodenbox_open.ogg" ],
+  "closeSounds" : [ "/sfx/objects/woodenbox_close.ogg" ],
+  "slotCount" : 16,
+  "uiConfig" : "/interface/chests/chest<slots>.config",
+  "frameCooldown" : 5,
+  "autoCloseCooldown" : 3600,
+
+  "soundEffect" : "/gunshop/sound/autoreloader.ogg",
+  "soundEffectRangeMultiplier" : 0.3
+}

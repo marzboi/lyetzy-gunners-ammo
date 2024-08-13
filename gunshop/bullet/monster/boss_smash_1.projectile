@@ -1,0 +1,25 @@
+{
+  "projectileName" : "boss_smash_1",
+  "image" : "boss_smash_1.png",
+  "animationCycle" : 0.25,
+  "power" : 5,
+  "frameNumber" : 5,
+  "speed" : 0.0,
+  "timeToLive" : 0.25,
+  "orientationLocked" : true,
+  "damagePoly" : [ [7, 12], [-6, 12], [-6, -16], [7, -16], [12, -10], [14, -6], [14, 2], [12, 7] ],
+  "animationLoops" : false,
+  "piercing" : true,
+  "bounces" : -1,
+  "actionOnReap" : [
+    {
+      "action" : "projectile",
+      "type" : "boss_smash_2",
+	  "angle" : -90,
+      "inheritDamageFactor" : 1,
+      "directional" : "true"
+    }
+  ],
+  "flippable" : true,
+  "damageKind" : "slash"
+}

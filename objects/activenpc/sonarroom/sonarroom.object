@@ -1,0 +1,40 @@
+{
+  "objectName" : "sonarroom",
+  "category" : "crafting",
+  "rarity" : "rare",
+  "description" : "A gun raised with affection is powerful.",
+  "shortdescription" : "Sonar Room",
+  "race" : "generic",
+  
+  "interactAction" : "OpenCraftingInterface",
+  "interactData" : {
+    "config" : "/objects/activenpc/sonarroom/sonarroom.config",
+    "filter" : [ "sonarroom" ]
+  },
+  "printable" : false,
+  "price" : 0,
+
+  "apexDescription" : "Sonar Room.",
+  "avianDescription" : "Sonar Room.",
+  "floranDescription" : "Sonar Room.",
+  "glitchDescription" : "Sonar Room.",
+  "humanDescription" : "Sonar Room.",
+  "hylotlDescription" : "Sonar Room.",
+
+  
+  "inventoryIcon" : "icon.png",
+  "orientations" : [
+	{
+      "imageLayers" : [ { "image" : "sonarroom.png:<color>.<frame>", "fullbright" : true }, { "image" : "sonarroomlit.png:<color>.<frame>" } ],
+
+	  "imagePosition" : [0, 0],
+	  "frames" : 24,
+	  "animationCycle" : 2.4,
+
+	  "spaceScan" : 0.1
+	}
+  ],
+
+  "soundEffect" : "/gunshop/sound/object/sonar.ogg",
+  "soundEffectRangeMultiplier" : 0.3
+}

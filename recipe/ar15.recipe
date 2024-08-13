@@ -1,0 +1,29 @@
+{
+	"input" : [
+    { 
+	"item" : "money", 
+	"count" : 2500
+	},
+    { 
+	"item" : "gs_ar15_broken", 
+	"count" : 1
+	},
+    { 
+	"item" : "gs_srs_pwcard_1", 
+	"count" : 1
+	},
+    { 
+	"item" : "gs_srs_pwcard_2", 
+	"count" : 1
+	},
+    { 
+	"item" : "gs_srs_pwcard_3", 
+	"count" : 1
+	}
+	],
+	"output" : {
+		"item" : "gs_ar15",
+		"count" : 1
+	},
+	"groups" : [ "srs",  "quatermaster" ]
+}

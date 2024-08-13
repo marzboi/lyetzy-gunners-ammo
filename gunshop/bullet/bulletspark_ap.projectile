@@ -1,0 +1,200 @@
+{
+  "projectileName" : "bulletspark_ap",
+  "image" : "icon.png",
+  "animationCycle" : 1,
+  "piercing" : true,
+  "bounces" : -1,
+  "flippable" : true,
+  "onlyHitTerrain" : true,
+  "frameNumber" : 1,
+  "renderLayer" : "Player+1",
+  "timeToLive" : 0,
+  "power" : 0,
+  "speed" : 0,
+  "damageKind" : "default",
+  "actionOnReap" : [
+    {
+      "action" : "projectile",
+      "type" : "bulletspark",
+      "inheritDamageFactor" : 0,
+      "delaySteps" : 0
+    },
+    {
+      "action" : "projectile",
+      "type" : "bulletspark",
+      "inheritDamageFactor" : 0,
+      "delaySteps" : 0
+    },
+    {
+      "action" : "projectile",
+      "type" : "bulletspark",
+      "inheritDamageFactor" : 0,
+      "fuzzAngle" : 30,
+      "angle" : 90,
+      "delaySteps" : 0
+    },
+    {
+      "action" : "projectile",
+      "type" : "bulletspark",
+      "inheritDamageFactor" : 0,
+      "fuzzAngle" : 30,
+      "angle" : 90,
+      "delaySteps" : 0
+    },
+    {
+      "action" : "projectile",
+      "type" : "frag",
+      "fuzzAngle" : 360,
+      "inheritDamageFactor" : 0,
+      "delaySteps" : 0
+    },
+    {
+      "action" : "projectile",
+      "type" : "frag",
+      "fuzzAngle" : 360,
+      "inheritDamageFactor" : 0,
+      "delaySteps" : 2
+    },
+    {
+      "action" : "projectile",
+      "type" : "frag",
+      "fuzzAngle" : 360,
+      "inheritDamageFactor" : 0,
+      "delaySteps" : 4
+    },
+    {
+      "action" : "projectile",
+      "type" : "frag",
+      "fuzzAngle" : 360,
+      "inheritDamageFactor" : 0,
+      "delaySteps" : 6
+    },
+    {
+      "action" : "projectile",
+      "type" : "frag",
+      "fuzzAngle" : 360,
+      "inheritDamageFactor" : 0,
+      "delaySteps" : 8
+    },
+    {
+      "action" : "projectile",
+      "type" : "frag1",
+      "fuzzAngle" : 2,
+      "inheritDamageFactor" : 0,
+      "angle" : 90,
+      "delaySteps" : 0
+    },
+    {
+      "action" : "projectile",
+      "type" : "frag1",
+      "fuzzAngle" : 6,
+      "inheritDamageFactor" : 0,
+      "angle" : 90,
+      "delaySteps" : 2
+    },
+    {
+      "action" : "projectile",
+      "type" : "frag1",
+      "fuzzAngle" : 10,
+      "inheritDamageFactor" : 0,
+      "angle" : 90,
+      "delaySteps" : 4
+    },
+    {
+      "action" : "projectile",
+      "type" : "frag1",
+      "fuzzAngle" : 14,
+      "inheritDamageFactor" : 0,
+      "angle" : 90,
+      "delaySteps" : 6
+    },
+    {
+      "action" : "projectile",
+      "type" : "frag1",
+      "fuzzAngle" : 18,
+      "inheritDamageFactor" : 0,
+      "angle" : 90,
+      "delaySteps" : 8
+    },
+    {
+      "action" : "projectile",
+      "type" : "frag2",
+      "fuzzAngle" : 2,
+      "inheritDamageFactor" : 0,
+      "angle" : 90,
+      "delaySteps" : 0
+    },
+    {
+      "action" : "projectile",
+      "type" : "frag2",
+      "fuzzAngle" : 6,
+      "inheritDamageFactor" : 0,
+      "angle" : 90,
+      "delaySteps" : 2
+    },
+    {
+      "action" : "projectile",
+      "type" : "frag2",
+      "fuzzAngle" : 10,
+      "inheritDamageFactor" : 0,
+      "angle" : 90,
+      "delaySteps" : 4
+    },
+    {
+      "action" : "projectile",
+      "type" : "frag2",
+      "fuzzAngle" : 14,
+      "inheritDamageFactor" : 0,
+      "angle" : 90,
+      "delaySteps" : 6
+    },
+    {
+      "action" : "projectile",
+      "type" : "frag2",
+      "fuzzAngle" : 18,
+      "inheritDamageFactor" : 0,
+      "angle" : 90,
+      "delaySteps" : 8
+    },
+    {
+      "action" : "projectile",
+      "type" : "frag3",
+      "fuzzAngle" : 2,
+      "inheritDamageFactor" : 0,
+      "angle" : 90,
+      "delaySteps" : 0
+    },
+    {
+      "action" : "projectile",
+      "type" : "frag3",
+      "fuzzAngle" : 2,
+      "inheritDamageFactor" : 0,
+      "angle" : 90,
+      "delaySteps" : 2
+    },
+    {
+      "action" : "projectile",
+      "type" : "frag3",
+      "fuzzAngle" : 4,
+      "inheritDamageFactor" : 0,
+      "angle" : 90,
+      "delaySteps" : 4
+    },
+    {
+      "action" : "projectile",
+      "type" : "frag3",
+      "fuzzAngle" : 6,
+      "inheritDamageFactor" : 0,
+      "angle" : 90,
+      "delaySteps" : 6
+    },
+    {
+      "action" : "projectile",
+      "type" : "frag3",
+      "fuzzAngle" : 6,
+      "inheritDamageFactor" : 0,
+      "angle" : 90,
+      "delaySteps" : 8
+    }
+  ]
+}

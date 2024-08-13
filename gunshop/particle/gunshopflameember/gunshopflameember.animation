@@ -1,0 +1,9 @@
+{
+  "frames" : "gunshopflameember.png",
+  "variants" : 1,
+  "loops" : 10.0,
+  "frameNumber" : 4,
+  "animationCycle" : 0.2,
+  "mode" : "LoopForever",
+  "offset" : [0, 0]
+}

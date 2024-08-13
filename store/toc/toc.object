@@ -1,0 +1,47 @@
+{
+  "objectName" : "toc",
+  "price" : 0,
+  "colonyTags" : ["crafting"],
+  "rarity" : "rare",
+  "category" : "crafting",
+  "description" : "A gun raised with affection is powerful.",
+  "shortdescription" : "Executive officer",
+  "race" : "generic",
+  "printable" : false,
+
+  "apexDescription" : "Executive officer.",
+  "avianDescription" : "Executive officer.",
+  "floranDescription" : "Executive officer.",
+  "glitchDescription" : "Executive officer.",
+  "humanDescription" : "Executive officer.",
+  "hylotlDescription" : "Executive officer.",
+  "novakidDescription" : "Executive officer.",
+
+  "interactAction" : "OpenMerchantInterface",
+  "interactData" : {
+    "config" : "/interface/windowconfig/merchant.config",
+    "paneLayoutOverride" : {
+      "windowtitle" : {
+        "title" : "Tactical Operation Center Officer",
+        "subtitle" : "Maj.Jeanne"
+      }
+    },
+    "buyFactor" : 1.0,
+    "sellFactor" : 0.2,
+    "items" : [
+    ]
+  },
+  
+  "inventoryIcon" : "icon.png",
+  "orientations" : [
+	{
+	  "dualImage" : "toc.png:<color>.<frame>",
+
+	  "imagePosition" : [-2.5, 0],
+	  "frames" : 100,
+	  "animationCycle" : 7.5,
+
+	  "spaceScan" : 0.1
+	}
+  ]
+}

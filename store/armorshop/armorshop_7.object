@@ -1,0 +1,61 @@
+{
+  "objectName" : "armorshop_7",
+  "price" : 10,
+  "colonyTags" : ["crafting"],
+  "rarity" : "legendary",
+  "category" : "other",
+  "description" : "GUNSHOP ARMOR VENDOR",
+  "shortdescription" : "^07;^yellow;ARMORSHOP 7Tier",
+  "race" : "generic",
+  "printable" : false,
+
+  "apexDescription" : "ook, hoo hoo!",
+  "avianDescription" : "Tweet,tweet!",
+  "floranDescription" : "Awssssssssome!",
+  "glitchDescription" : "Beep!",
+  "humanDescription" : "YEAAAAAAH!",
+  "hylotlDescription" : "Flop,flop!",
+  "novakidDescription" : "I am sure that winchester must be the best firearm.
+Oh, Sorry SAA!",
+
+  "interactAction" : "OpenMerchantInterface",
+  "interactData" : {
+    "config" : "/store/ui/purchasing.config",
+    "filter" : [ "gunshop" ],
+    "paneLayoutOverride" : {
+      "windowtitle" : {
+        "title" : "ARMORSHOP 7Tier",
+        "subtitle" : "^red;Gunshop ARMOR Cabinet"
+      }
+    },
+    "buyFactor" : 1.0,
+    "sellFactor" : 0.2,
+    "items" : [
+	//1tier
+      { "item" : { "name" : "gs_ghilliespring1" }, "prerequisiteQuest" : "gs5tier" },
+      { "item" : { "name" : "gs_ghilliespring2" }, "prerequisiteQuest" : "gs5tier" },
+      { "item" : { "name" : "gs_ghilliespring3" }, "prerequisiteQuest" : "gs5tier" },
+      { "item" : { "name" : "gs_ghilliefall1" }, "prerequisiteQuest" : "gs5tier" },
+      { "item" : { "name" : "gs_ghilliefall2" }, "prerequisiteQuest" : "gs5tier" },
+      { "item" : { "name" : "gs_ghilliefall3" }, "prerequisiteQuest" : "gs5tier" },
+      { "item" : { "name" : "gs_ghilliewinter1" }, "prerequisiteQuest" : "gs5tier" },
+      { "item" : { "name" : "gs_ghilliewinter2" }, "prerequisiteQuest" : "gs5tier" },
+      { "item" : { "name" : "gs_ghilliewinter3" }, "prerequisiteQuest" : "gs5tier" }
+    ]
+  },
+
+  "inventoryIcon" : "armorshop_7.png",
+  "orientations" : [
+    {
+      "imageLayers" : [ { "image" : "armorshop_7.png" } ],
+
+      "imagePosition" : [0, 0],
+      "frames" : 1,
+      "animationCycle" : 1.0,
+
+      "spaceScan" : 0.1,
+      "collision" : "platform",
+      "anchors" : [ "bottom" ]
+    }
+  ]
+}

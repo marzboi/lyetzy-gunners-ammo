@@ -1,0 +1,70 @@
+{
+  "objectName" : "gs_armory_pst",
+  "price" : 10,
+  "colonyTags" : ["crafting"],
+  "rarity" : "Legendary",
+  "category" : "other",
+  "description" : "Gunners carrier ARMORY",
+  "shortdescription" : "^red;Side weapon",
+  "race" : "generic",
+  "printable" : false,
+
+  "apexDescription" : "ook, hoo hoo!",
+  "avianDescription" : "Tweet,tweet!",
+  "floranDescription" : "Awssssssssome!",
+  "glitchDescription" : "Beep!",
+  "humanDescription" : "YEAAAAAAH!",
+  "hylotlDescription" : "Flop,flop!",
+  "novakidDescription" : "I am sure that winchester must be the best firearm.
+Oh, Sorry SAA!",
+
+  "interactAction" : "OpenMerchantInterface",
+  "interactData" : {
+    "config" : "/interface/windowconfig/merchant.config",
+    "paneLayoutOverride" : {
+      "windowtitle" : {
+        "title" : "Gunners carrier ARMORY",
+        "subtitle" : "^green;Side arms"
+      }
+    },
+    "buyFactor" : 1.0,
+    "sellFactor" : 0.5,
+    "items" : [
+      { "item" : { "name" : "gs_beretta92" } },
+      { "item" : { "name" : "gs_coltpython" } },
+      { "item" : { "name" : "gs_cz83" } },
+      { "item" : { "name" : "gs_glock17" } },
+      { "item" : { "name" : "gs_hipower" } },
+      { "item" : { "name" : "gs_nagantrevolver" } },
+      { "item" : { "name" : "gs_luger" } },
+      { "item" : { "name" : "gs_m1910" } },
+      { "item" : { "name" : "gs_m1911" } },
+      { "item" : { "name" : "gs_m1917" } },
+      { "item" : { "name" : "gs_makarov" } },
+      { "item" : { "name" : "gs_mk23" } },
+      { "item" : { "name" : "gs_p220" } },
+      { "item" : { "name" : "gs_tokarev" } },
+      { "item" : { "name" : "gs_usp45" } },
+      { "item" : { "name" : "gs_waltherppk" } },
+      { "item" : { "name" : "gs_webley" } },
+      { "item" : { "name" : "gs_deserteagle" } },
+      { "item" : { "name" : "gs_ragingbull" } },
+      { "item" : { "name" : "gs_stechkin" } },
+      { "item" : { "name" : "gs_coltsaa" } },
+      { "item" : { "name" : "gs_c96" } }
+    ]
+  },
+  
+  "inventoryIcon" : "gs_armory_pst.png:default.0",
+  "orientations" : [
+	{
+	  "dualImage" : "gs_armory_pst.png:<color>.<frame>",
+	  
+	  "imagePosition" : [0, 0],
+	  "frames" : 1,
+	  "animationCycle" : 0.1,
+
+      "spaceScan" : 0.1
+	}
+  ]
+}

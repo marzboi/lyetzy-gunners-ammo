@@ -1,0 +1,38 @@
+{
+  "objectName" : "gs_blood_splash",
+  "category" : "crafting",
+  "rarity" : "legendary",
+  "description" : "object.",
+  "shortdescription" : "gs_blood_splash",
+  "race" : "generic",
+  "printable" : false,
+  "price" : 0,
+  
+  "apexDescription" : "Jeez..
+Is this blood?",
+  "avianDescription" : "Jeez..
+Is this blood?",
+  "floranDescription" : "Jeez..
+Is this blood?",
+  "glitchDescription" : "Jeez..
+Is this blood?",
+  "humanDescription" : "Jeez..
+Is this blood?",
+  "hylotlDescription" : "Jeez..
+Is this blood?",
+  "novakidDescription" : "Jeez..
+Is this blood?",
+  
+  "inventoryIcon" : "gs_blood_splash.png",
+  "orientations" : [
+	{
+	  "dualImage" : "gs_blood_splash.png:<color>.<frame>",
+	  
+	  "imagePosition" : [0, 0],
+	  "frames" : 1,
+	  "animationCycle" : 0.1,
+
+      "spaceScan" : 0.1
+	}
+  ]
+}

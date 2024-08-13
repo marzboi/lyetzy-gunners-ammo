@@ -1,0 +1,488 @@
+{
+  // ------- operation_srs -------
+
+  "operation_srs_lyira_01" : {
+    "type" : "mission",
+    "senderName" : "Voice-only",
+    "portraitImage" : "/interface/chatbubbles/sound_only.png:<frame>",
+    "text" : 
+"*noise...
+Repeat! We losing control! 
+Repeat! This area is out of control! 
+*noise.."
+  },
+  
+  "operation_srs_lyira_02" : {
+    "type" : "mission",
+    "senderName" : "Voice-only",
+    "portraitImage" : "/interface/chatbubbles/sound_only.png:<frame>",
+    "text" : 
+"*noise...
+McCloy! Did you find the radio?"
+  },
+
+  "operation_srs_lyira_03" : {
+    "type" : "mission",
+    "senderName" : "Voice-only",
+    "portraitImage" : "/interface/chatbubbles/sound_only.png:<frame>",
+    "text" : 
+"*Cough, ..Ah shit, yes, YES,ma'am! 
+I already sent out a distress signal!
+and I checked teleport reaction from near somewhere.
+It's most likely a rescue team!"
+  },
+  
+  "operation_srs_lyira_04" : {
+    "type" : "mission",
+    "senderName" : "Voice-only",
+    "portraitImage" : "/interface/chatbubbles/sound_only.png:<frame>",
+    "text" : 
+"Good job! just- *noise...
+out there *noise... 
+ful! *noise... "
+  },
+
+  "operation_srs_lyira_05" : {
+    "type" : "mission",
+    "senderName" : "Voice-only",
+    "portraitImage" : "/interface/chatbubbles/sound_only.png:<frame>",
+    "text" : 
+"Ma'am?..Ma'am? I, I can't hear... 
+oh,no..No!  for god sake!!"
+  },
+  
+  "operation_srs_lyira_06" : {
+    "type" : "mission",
+    "senderName" : "Voice-only",
+    "portraitImage" : "/interface/chatbubbles/sound_only.png:<frame>",
+    "text" : 
+"Cloy! Can you hear me? 
+We lost contact with fifth basement team! 
+We can't hold this position any longer!
+Take everything you can and hide somewhere."
+  },
+  
+  "operation_srs_lyira_07" : {
+    "type" : "mission",
+    "senderName" : "Voice-only",
+    "portraitImage" : "/interface/chatbubbles/sound_only.png:<frame>",
+    "text" : "*cough...cloy! If you alive, Take everything you can and hide somewhere."
+  },
+  
+  "operation_srs_lyira_08" : {
+    "type" : "mission",
+    "senderName" : "Lisa",
+    "portraitImage" : "/interface/chatbubbles/lyira.png:<frame>",
+    "text" : 
+"Ah, signal is stable! ..uh, wait, who are you? 
+..Ah. I see.. 
+Thank you for helping us.
+I'm lisa, Protectorate S.R.S Lieutenant."
+  },
+  
+  "operation_srs_lyira_09" : {
+    "type" : "mission",
+    "senderName" : "Lisa",
+    "portraitImage" : "/interface/chatbubbles/lyira.png:<frame>",
+    "text" : "U.S.C.M quick reaction force came for us.. but they can't solve it. 
+Only few survivors left with us."
+  },
+  
+  "operation_srs_lyira_09_2" : {
+    "type" : "mission",
+    "senderName" : "Lisa",
+    "portraitImage" : "/interface/chatbubbles/lyira.png:<frame>",
+    "text" : "If you want to check any survivors, please be careful. 
+Me and other survivors are moving to a hanger. Maybe we can find some transport for evac."
+  },
+  
+  "operation_srs_lyira_10" : {
+    "type" : "mission",
+    "senderName" : "Lisa",
+    "portraitImage" : "/interface/chatbubbles/lyira.png:<frame>",
+    "text" : 
+"Ah, if.. you have to pass fifth basement, please be careful. 
+We lost contact with whole teams on that floor. No one responds.."
+  },
+  
+  "operation_srs_lyira_11" : {
+    "type" : "mission",
+    "senderName" : "Lisa",
+    "portraitImage" : "/interface/chatbubbles/lyira.png:<frame>",
+    "text" : 
+"Wait, are you in the tunnel?
+That place is extremely dangerous!
+..Just, just be careful not to make any noise at all."
+  },
+
+  "operation_srs_lyira_12" : {
+    "type" : "mission",
+    "senderName" : "Lisa",
+    "portraitImage" : "/interface/chatbubbles/lyira.png:<frame>",
+    "text" : 
+"Damn it! Run! Run without even looking back!"
+  },
+
+  "operation_srs_lyira_13" : {
+    "type" : "mission",
+    "senderName" : "Lisa",
+    "portraitImage" : "/interface/chatbubbles/lyira.png:<frame>",
+    "text" : 
+"You did it!
+Okay, listen. We found fine state dropship.
+Fueling is almost done too."
+  },
+
+  "operation_srs_lyira_13_2" : {
+    "type" : "mission",
+    "senderName" : "Lisa",
+    "portraitImage" : "/interface/chatbubbles/lyira.png:<frame>",
+    "text" : 
+"We are in hanger, come to me."
+  },
+
+  "operation_srs_lyira_14" : {
+    "type" : "mission",
+    "senderName" : "Lisa",
+    "portraitImage" : "/interface/chatbubbles/lyira.png:<frame>",
+    "text" : 
+"Ah, Fuck! Firewall is activated!
+Break through the vents over your head and come over!
+Hurry!! something going wrong!!"
+  },
+
+  "operation_srs_lyira_15" : {
+    "type" : "mission",
+    "senderName" : "Lisa",
+    "portraitImage" : "/interface/chatbubbles/lyira.png:<frame>",
+    "text" : 
+"Wh, wa- WHAT THE HELL IS THAT?!
+Fire! fire everything we've got!!
+"
+  },
+
+  "operation_srs_lyira_16" : {
+    "type" : "mission",
+    "senderName" : "Lisa",
+    "portraitImage" : "/interface/chatbubbles/lyira.png:<frame>",
+    "text" : 
+"No, no,no,no! Wait! OPEN THIS DOOR!
+rescue team are still there!"
+  },
+
+  "operation_srs_lyira_17" : {
+    "type" : "mission",
+    "senderName" : "Lisa",
+    "portraitImage" : "/interface/chatbubbles/lyira.png:<frame>",
+    "text" : 
+"You.. you made it!
+You're a REAL BADASS, don't you think?
+Come on, get in. Everyone's already in."
+  },
+  
+  "operation_srs_monologue_01" : {
+    "type" : "mission",
+    "senderName" : "Player",
+    "portraitImage" : "/interface/chatbubbles/player.png:<frame>",
+    "text" : 
+"Wh- what is this? building?
+This building is remained in good shape after disaster."
+  },
+
+  "operation_srs_monologue_02" : {
+    "type" : "mission",
+    "senderName" : "Player",
+    "portraitImage" : "/interface/chatbubbles/player.png:<frame>",
+    "text" : 
+"U.S.C.M chinook? Why is it here?
+Did the rescue team already respond to SOS?
+Hm, i don't think I have anything to do."
+  },
+
+  "operation_srs_monologue_03" : {
+    "type" : "mission",
+    "senderName" : "Player",
+    "portraitImage" : "/interface/chatbubbles/player.png:<frame>",
+    "text" : 
+"Broken firewall..
+Maybe i can handle this.. with the gun on the table."
+  },
+
+  "operation_srs_monologue_04" : {
+    "type" : "mission",
+    "senderName" : "Player",
+    "portraitImage" : "/interface/chatbubbles/player.png:<frame>",
+    "text" : 
+"This is where the blood ends."
+  },
+
+  "operation_srs_monologue_05" : {
+    "type" : "mission",
+    "senderName" : "Player",
+    "portraitImage" : "/interface/chatbubbles/player.png:<frame>",
+    "text" : 
+"'Turn back'?
+How kind of you."
+  },
+
+  "operation_srs_monologue_06" : {
+    "type" : "mission",
+    "senderName" : "Player",
+    "portraitImage" : "/interface/chatbubbles/player.png:<frame>",
+    "text" : 
+"Uh, I don't want to go near that..THING."
+  },
+
+  "operation_srs_monologue_07" : {
+    "type" : "mission",
+    "senderName" : "Player",
+    "portraitImage" : "/interface/chatbubbles/player.png:<frame>",
+    "text" : 
+"Oh,no! Not again!"
+  },
+
+  "operation_srs_monologue_07_2" : {
+    "type" : "mission",
+    "senderName" : "Player",
+    "portraitImage" : "/interface/chatbubbles/player.png:<frame>",
+    "text" : 
+"Damn!"
+  },
+  
+  "operation_srs_monologue_201_01" : {
+    "type" : "mission",
+    "senderName" : "Player",
+    "portraitImage" : "/interface/chatbubbles/player.png:<frame>",
+    "text" : 
+"I heard something."
+  },
+  
+  "operation_srs_monologue_201_02" : {
+    "type" : "mission",
+    "senderName" : "Player",
+    "portraitImage" : "/interface/chatbubbles/player.png:<frame>",
+    "text" : 
+"Poor guy.
+He didn't make it.
+I have to recover his ID card."
+  },
+  
+  "operation_srs_monologue_201_03" : {
+    "type" : "mission",
+    "senderName" : "Player",
+    "portraitImage" : "/interface/chatbubbles/player.png:<frame>",
+    "text" : 
+"Revolver? Nice."
+  },
+  
+  "operation_srs_monologue_203_01" : {
+    "type" : "mission",
+    "senderName" : "Player",
+    "portraitImage" : "/interface/chatbubbles/player.png:<frame>",
+    "text" : 
+"Sounds quiet."
+  },
+  
+  "operation_srs_monologue_203_02" : {
+    "type" : "mission",
+    "senderName" : "Player",
+    "portraitImage" : "/interface/chatbubbles/player.png:<frame>",
+    "text" : 
+"Wait.. I found something in closet."
+  },
+  
+  "operation_srs_monologue_203_03" : {
+    "type" : "mission",
+    "senderName" : "Player",
+    "portraitImage" : "/interface/chatbubbles/player.png:<frame>",
+    "text" : 
+"Ah. I'm so hungry.
+there must be something i can cook"
+  },
+  
+  "operation_srs_monologue_205_01" : {
+    "type" : "mission",
+    "senderName" : "Player",
+    "portraitImage" : "/interface/chatbubbles/player.png:<frame>",
+    "text" : 
+"Hm..
+I can hear crunch something."
+  },
+  
+  "operation_srs_monologue_205_02" : {
+    "type" : "mission",
+    "senderName" : "Player",
+    "portraitImage" : "/interface/chatbubbles/player.png:<frame>",
+    "text" : 
+"Oh, is that a rifle?"
+  },
+  
+  "operation_srs_monologue_205_03" : {
+    "type" : "mission",
+    "senderName" : "Player",
+    "portraitImage" : "/interface/chatbubbles/player.png:<frame>",
+    "text" : 
+"Another agent..
+rest in peace."
+  },
+  
+  "operation_srs_monologue_301_01" : {
+    "type" : "mission",
+    "senderName" : "Player",
+    "portraitImage" : "/interface/chatbubbles/player.png:<frame>",
+    "text" : 
+"I hear something in the next room.
+hm, i can break this wall."
+  },
+  
+  "operation_srs_monologue_301_02" : {
+    "type" : "mission",
+    "senderName" : "Player",
+    "portraitImage" : "/interface/chatbubbles/player.png:<frame>",
+    "text" : 
+"Another victim.....with suppressed pistol?
+Wait, he got a shot on his back..
+What the hell happened here?"
+  },
+  
+  "operation_srs_monologue_301_03" : {
+    "type" : "mission",
+    "senderName" : "Player",
+    "portraitImage" : "/interface/chatbubbles/player.png:<frame>",
+    "text" : 
+"This guy is clean, except gunshot wound..
+But it looks like she succeeded in revenge.
+Anyway, The cultist had infiltrated to protectorate was true."
+  },
+  
+  "operation_srs_monologue_304_01" : {
+    "type" : "mission",
+    "senderName" : "Player",
+    "portraitImage" : "/interface/chatbubbles/player.png:<frame>",
+    "text" : 
+"..I feel bad feelings."
+  },
+  
+  "operation_srs_monologue_304_02" : {
+    "type" : "mission",
+    "senderName" : "Player",
+    "portraitImage" : "/interface/chatbubbles/player.png:<frame>",
+    "text" : 
+"..A brave soldier lay down here.
+With.. automatic firearm."
+  },
+  
+  "operation_srs_monologue_405_01" : {
+    "type" : "mission",
+    "senderName" : "Player",
+    "portraitImage" : "/interface/chatbubbles/player.png:<frame>",
+    "text" : 
+"He almost make it.. but, his wound was..
+As a result, He bled to death.
+Oh, I found broken AR-15.
+Maybe someone can fix this.
+"
+  },
+  
+  
+  
+  // ------- operation_gunners carrier -------
+
+  
+  
+  "operation_gunners_lyira_01" : {
+    "type" : "mission",
+    "senderName" : "Lisa",
+    "portraitImage" : "/interface/chatbubbles/lyira.png:<frame>",
+    "text" : 
+"Hey, I'm checking the list at the cargo.
+And if you have.. fallen agent's ID cards, please give it to me.
+I'll compensate you for the good stuff."
+  },
+  
+  "operation_gunners_lyira_02" : {
+    "type" : "mission",
+    "senderName" : "Lisa",
+    "portraitImage" : "/interface/chatbubbles/lyira.png:<frame>",
+    "text" : 
+"Hey, how are you?"
+  },
+  
+  "operation_gunners_alice_01" : {
+    "type" : "mission",
+    "senderName" : "Alice",
+    "portraitImage" : "/interface/chatbubbles/alice.png:<frame>",
+    "text" : 
+"Nice to meet you.
+I'm 2nd Lieutenant Alice.
+If you want to know the progress of repair work, please contact me."
+  },
+
+  "operation_gunners_monologue_01" : {
+    "type" : "mission",
+    "senderName" : "Player",
+    "portraitImage" : "/interface/chatbubbles/player.png:<frame>",
+    "text" : 
+"Pilot must be very busy, so let's try another day."
+  },
+  
+  "operation_gunners_jeanne_01" : {
+    "type" : "mission",
+    "senderName" : "Jeanne",
+    "portraitImage" : "/interface/chatbubbles/jeanne.png:<frame>",
+    "text" : 
+"Hey, soldier.
+Don't make a mess."
+  },
+  
+  "operation_gunners_rebecca_01" : {
+    "type" : "mission",
+    "senderName" : "Rebecca",
+    "portraitImage" : "/interface/chatbubbles/rebecca.png:<frame>",
+    "text" : 
+"Ah..Is this correct..?
+Nothing to report, sir!"
+  },
+  
+  "operation_gunners_jessie_01" : {
+    "type" : "mission",
+    "senderName" : "Jessie",
+    "portraitImage" : "/interface/chatbubbles/jessie.png:<frame>",
+    "text" : 
+"There are so many things to organize!
+Sorry! Come again next time!"
+  },
+
+  "operation_gunners_monologue_02" : {
+    "type" : "mission",
+    "senderName" : "Player",
+    "portraitImage" : "/interface/chatbubbles/player.png:<frame>",
+    "text" : 
+"This place is a mess."
+  },
+
+  "operation_gunners_monologue_03" : {
+    "type" : "mission",
+    "senderName" : "Player",
+    "portraitImage" : "/interface/chatbubbles/player.png:<frame>",
+    "text" : 
+"Hm, no one left in barrack. They must be busy now.
+But, I can buy some combat suits here.
+Let me see.."
+  },
+  
+  "operation_gunners_revi_01" : {
+    "type" : "mission",
+    "senderName" : "Revi",
+    "portraitImage" : "/interface/chatbubbles/revi.png:<frame>",
+    "text" : 
+"...
+
+
+(She is just staring at you.)"
+  }
+  
+  // ------- operation_gunners carrier -------
+
+
+}

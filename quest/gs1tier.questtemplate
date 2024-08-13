@@ -1,0 +1,42 @@
+{
+  "id" : "gs1tier",
+  "title" : "^red;Welcome to Lyetzi's Gunshop Mod",
+  "text" : "^white;CURRENT TIER:1
+^white;TIER2 : Tungsten bar
+^green;TIER3 : Titanium bar
+^green;TIER4 : Durasteel bar
+^blue;TIER5 : Refined aegisalt
+^blue;TIER6 : Solarium star",
+  "completionText" : "Tier 2 Upgrade Complete!",
+  "moneyRange" : [50, 50],
+  "ephemeral" : false,
+  "canBeAbandoned" : false,
+  "rewards" : [
+    [ [ "money", 625 ] ]
+  ],
+
+  "updateDelta" : 10,
+  "script" : "/quests/scripts/main.lua",
+  "scriptConfig" : {
+    "portraits" : {
+      "questStarted" : {
+        "portrait" : [ {"image" : "/store/portrait/gunstoreowner.png"} ],
+        "title" : "Lyetzi"
+      },
+      "questComplete" : {
+        "portrait" : [ {"image" : "/store/portrait/gunstoreowner.png"} ],
+        "title" : "Lyetzi"
+      }
+    },
+    "requireTurnIn" : true,
+    "conditions" : [
+      {
+        "type" : "gatherItem",
+        "itemName" : "tungstenbar",
+        "count" : 1,
+        "consume" : false
+      }
+    ],
+    "followUp" : "gs2tier"
+  }
+}

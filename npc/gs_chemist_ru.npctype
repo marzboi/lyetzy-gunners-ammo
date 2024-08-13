@@ -1,0 +1,51 @@
+{
+  "type" : "gs_chemist_ru",
+  "baseType" : "gs_rifleman_ru",
+
+  // This npctype is used just as a base for the other crewmemberchemist*
+  // npctypes. Don't use it directly for spawning NPCs.
+
+  "scriptConfig" : {
+    "behaviorConfig" : {
+      "emptyHands" : true
+    },
+
+    "crew" : {
+      "role" : {
+        "type" : "Officer",
+        "name" : "Officer",
+        "field" : "Officer",
+        "uniformColorIndex" : 6
+      }
+    },
+
+    "dialog" : {
+      "crewmember" : {
+        "roleDescription" : {
+          "default" : {
+            "default" : [
+              "Я готов сражаться, мой друг!"
+            ]
+          }
+        },
+        "combatBenefit" : {
+          "default" : {
+            "default" : [
+              "Получай!!",
+              "В атаку!!"
+            ]
+          }
+        }
+      }
+    }
+  },
+
+  "items" : {
+    "default" : [
+      [0, [
+          {
+          }
+        ] ]
+    ]
+  }
+}

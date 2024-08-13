@@ -1,0 +1,15 @@
+{
+  "projectileName" : "bulletspark40mm",
+  "image" : "bulletspark40mm.png",
+  "animationCycle" : 0.25,
+  "frameNumber" : 5,
+  "physics" : "stickybullet",
+  "speed" : 0,
+  "damagePoly" : [ [-15, 0], [-10, -10], [0, -15], [10, -10], [15, 0], [10, 10], [0, 15], [-10, 10] ],
+  "animationLoops" : false,
+  "piercing" : true,
+  "flippable" : true,
+  "damageKind" : "default",
+  "renderLayer" : "Player+1",
+  "fullbright" : true
+}

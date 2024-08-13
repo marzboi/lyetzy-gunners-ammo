@@ -1,0 +1,8 @@
+{
+  "itemName" : "gs_oldworldmag",
+  "rarity" : "uncommon",
+  "price" : 1000,
+  "inventoryIcon" : "gs_oldworldmag.png",
+  "description" : "Yes, this is it!",
+  "shortdescription" : "^green;Old world's Magazine"
+}

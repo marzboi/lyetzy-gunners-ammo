@@ -1,0 +1,8 @@
+{
+  "itemName" : "gs_silencer",
+  "rarity" : "rare",
+  "price" : 3000,
+  "inventoryIcon" : "gs_silencer.png",
+  "description" : "Old world's Silencer Module",
+  "shortdescription" : "^blue;Silencer Module"
+}

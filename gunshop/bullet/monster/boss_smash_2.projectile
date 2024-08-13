@@ -1,0 +1,22 @@
+{
+  "projectileName" : "boss_smash_2",
+  "image" : "boss_smash_2.png",
+  "animationCycle" : 1.0,
+  "piercing" : true,
+  "bounces" : 0,
+  "frameNumber" : 1,
+  "renderLayer" : "Player+1",
+  "physics" : "laser",
+  "timeToLive" : 0.1,
+  "actionOnReap" : [
+    {
+      "action" : "config",
+      "file" : "/gunshop/bullet/explosion0.config"
+    }
+  ],
+  "power" : 0.0,
+  "speed" : 200,
+  "damageKind" : "default",
+  "damageType" : "NoDamage",
+  "fullbright" : true
+}

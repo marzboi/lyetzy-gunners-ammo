@@ -1,0 +1,22 @@
+{
+  "projectileName" : "gs_zombi_srs_deadbody",
+  "image" : "gs_zombi_srs_deadbody.png",
+  "animationCycle" : 3.0,
+  "physics" : "laser",
+  "flippable" : true,
+  "piercing" : true,
+  "frameNumber" : 30,
+  "renderLayer" : "Object+1",
+  "timeToLive" : 3.0,
+  "loops" : false,
+  "actionOnReap" : [
+    {
+      "action" : "projectile",
+      "type" : "gs_zombi_srs_deadbody2"
+    }
+  ],
+  "power" : 0,
+  "speed" : 0,
+  "damageType" : "NoDamage",
+  "damageKind" : "default"
+}

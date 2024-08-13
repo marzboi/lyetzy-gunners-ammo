@@ -1,0 +1,36 @@
+{
+  "itemName" : "6_uscm_3",
+  "inventoryIcon" : "icons.png",
+  "dropCollision" : [-4.0, -3.0, 4.0, 3.0],
+  "rarity" : "common",
+  "price" : 20000,
+  "shortdescription" : "^yellow;U.S.C.M BDU^white; Pants",
+  "description" : "U.S.C.M BDU Woodland
+^green;DAMAGE+
+^green;HEALTH++
+^red;ENERGY-",
+  "inspectionKind" : "armor",
+  "tooltipKind" : "armor",
+
+  "maleFrames" : "pants.png",
+  "femaleFrames" : "pants.png",
+
+  "level" : 6,
+  "leveledStatusEffects" : [
+    {
+      "levelFunction" : "standardArmorLevelPowerMultiplierMultiplier",
+      "stat" : "powerMultiplier",
+      "baseMultiplier" : 1.10
+    },
+    {
+      "levelFunction" : "standardArmorLevelProtectionMultiplier",
+      "stat" : "protection",
+      "amount" : 0.2
+    },
+    {
+      "levelFunction" : "standardArmorLevelMaxHealthMultiplier",
+      "stat" : "maxHealth",
+      "amount" : 6
+    }
+  ]
+}

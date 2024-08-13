@@ -1,0 +1,11 @@
+{
+  "itemName" : "gs_reflex",
+  "rarity" : "rare",
+  "price" : 3000,
+  "inventoryIcon" : "gs_reflex.png",
+  "description" : "Old world's reflex sight.
+This will increase gun's accuracy.
+^green;+10%ACCURACY
+^red;-10%RUN SPEED",
+  "shortdescription" : "^blue;Reflex sight"
+}

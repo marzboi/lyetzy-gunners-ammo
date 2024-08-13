@@ -1,0 +1,8 @@
+{
+  "itemName" : "gs_fallendevgruid",
+  "rarity" : "rare",
+  "price" : 3000,
+  "inventoryIcon" : "gs_fallendevgruid.png",
+  "description" : "USCM's standard issue weapon module kit.",
+  "shortdescription" : "^blue;USCM module kit"
+}

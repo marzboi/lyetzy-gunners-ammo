@@ -1,0 +1,45 @@
+{
+  "objectName" : "gs_srs2_jackson_bg",
+  "category" : "crafting",
+  "rarity" : "legendary",
+  "description" : "object.",
+  "shortdescription" : "gs_srs2_jackson_bg",
+  "race" : "generic",
+  "printable" : false,
+  "price" : 0,
+  
+  "apexDescription" : "A clean extinguisher.
+I don't think there was a fire.
+So, where is everyone?",
+  "avianDescription" : "A clean extinguisher.
+I don't think there was a fire.
+So, where is everyone?",
+  "floranDescription" : "A clean extinguisher.
+I don't think there was a fire.
+So, where is everyone?",
+  "glitchDescription" : "A clean extinguisher.
+I don't think there was a fire.
+So, where is everyone?",
+  "humanDescription" : "A clean extinguisher.
+I don't think there was a fire.
+So, where is everyone?",
+  "hylotlDescription" : "A clean extinguisher.
+I don't think there was a fire.
+So, where is everyone?",
+  "novakidDescription" : "A clean extinguisher.
+I don't think there was a fire.
+So, where is everyone?",
+  
+  "inventoryIcon" : "gs_srs2_jackson_bg.png",
+  "orientations" : [
+	{
+	  "dualImage" : "gs_srs2_jackson_bg.png:<color>.<frame>",
+	  
+	  "imagePosition" : [0, 0],
+	  "frames" : 1,
+	  "animationCycle" : 0.1,
+
+      "spaceScan" : 0.1
+	}
+  ]
+}

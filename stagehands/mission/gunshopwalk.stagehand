@@ -1,0 +1,7 @@
+{
+  "type" : "gunshopwalk",
+  "keepAlive" : true,
+
+  "scripts" : ["/stagehands/mission/gunshopwalk.lua"],
+  "scriptDelta" : 20
+}

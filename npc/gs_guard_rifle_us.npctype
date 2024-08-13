@@ -1,0 +1,99 @@
+{
+  "type" : "gs_guard_rifle_us",
+  "baseType" : "gs_base",
+
+  "levelVariance" : [3, 3],
+  "persistent" : true,
+
+  "damageTeamType" : "friendly",
+
+  "scriptConfig" : {
+    "behavior" : "guard",
+
+    "behaviorConfig" : {
+      "greetingChance" : 0.67,
+      "patrolTime" : 3,
+
+      "hostileDamageTeam" : { "type" : "friendly", "team" : 1 }
+    },
+    
+    "personalities" : [
+        [1.0, { "personality" : "normal", "reactions" : {} }]
+    ],
+
+    "reactions" : {
+      "spontaneous" : [
+        [5.0, "sleep", { "timeRange" : [0.7, 0.9] }],
+        [1.0, "patrol"]
+      ]
+    },
+
+    "dialog" : {
+      "tenant" : {
+        "grumbles" : {
+          "tagCriteria" : "/npc/grumble.config:tagCriteria",
+          "enclosedArea" : "/npc/grumble.config:enclosedArea",
+          "otherDeed" : "/npc/grumble.config:otherDeed",
+          "severe" : "/npc/grumble.config:severe",
+          "final" : "/npc/grumble.config:final"
+        },
+        "arrivedHome" : {
+          "beacon" : "/npc/arrivedhome.config:beacon",
+          "rent" : "/npc/arrivedhome.config:rent"
+        }
+      },
+
+      "greeting" : "/npc/converse.config:greeting",
+      "converse" : "/npc/converse.config:converse",
+      
+      "accuse" : "/dialog/thief.config:accuse",
+
+      "attack" : "/npc/combat_us.config:attack",
+      "reattack" : "/npc/combat_us.config:reattack",
+      "killedTarget" : "/npc/combat_us.config:killedTarget",
+      "lostTarget" : "/npc/combat_us.config:lostTarget",
+      "outOfSight" : "/npc/combat_us.config:outOfSight",
+      "cheerOn" : "/npc/combat_us.config:cheerOn",
+      "cantReach" : "/npc/combat_us.config:cantReach"
+    }
+  },
+
+  "items" : {
+    "default" : [
+      [0, [
+          {
+            "head" : [ { "name" : "gs_usinfantry1" } ],
+            "chest" : [ { "name" : "gs_usinfantry2" } ],
+            "legs" : [ { "name" : "gs_usinfantry3" } ],
+            "primary" : [ "gs_bar" ]
+          }
+        ] ]
+    ],
+    "human" : [
+      [0, [
+          {
+            "head" : [ { "name" : "gs_usinfantry1" } ],
+            "chest" : [ { "name" : "gs_usinfantry2" } ],
+            "legs" : [ { "name" : "gs_usinfantry3" } ],
+            "primary" : [ "gs_bar" ]
+          }
+        ] ],
+      [2, [
+          {
+            "head" : [ { "name" : "gs_usinfantry1" } ],
+            "chest" : [ { "name" : "gs_usinfantry2" } ],
+            "legs" : [ { "name" : "gs_usinfantry3" } ],
+            "primary" : [ "gs_bar" ]
+          }
+        ] ],
+      [4, [
+          {
+            "head" : [ { "name" : "gs_usinfantry1" } ],
+            "chest" : [ { "name" : "gs_usinfantry2" } ],
+            "legs" : [ { "name" : "gs_usinfantry3" } ],
+            "primary" : [ "gs_bar" ]
+          }
+        ] ]
+    ]
+  }
+}

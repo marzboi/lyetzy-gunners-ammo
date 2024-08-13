@@ -1,0 +1,26 @@
+{
+  "projectileName" : "case_large_high",
+  "image" : "case_large.png",
+  "animationCycle" : 0.2,
+  "frameNumber" : 4,
+  "renderLayer" : "Player+1",
+  "physics" : "grenade",
+  "piercing" : true,
+  "bounces" : 0,
+  "speed" : 0,
+  "timeToLive" : 0,
+  "damageKindImage" : "icon.png",
+  "power" : 0,
+  "damageType" : "NoDamage",
+  "damageKind" : "default",
+  "actionOnReap" : [
+    {
+      "action" : "projectile",
+      "type" : "case_large1",
+      "allowFlip" : true,
+      "fuzzAngle" : 45,
+      "offset" : [0.5,0],
+      "directional" : "true"
+    }
+  ]
+}

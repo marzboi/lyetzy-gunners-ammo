@@ -1,0 +1,24 @@
+{
+  "gs_zombi_reward" : [
+    [1, {
+      "pool" : [
+        {"weight" : 1.0, "item" : [ "money", 10]}
+      ]
+    } ]
+  ],
+  "gs_srs_deadbody" : [
+    [1, {
+      "pool" : [
+        {"weight" : 1.0, "item" : [ "money", 10]}
+      ]
+    } ]
+  ],
+  "gs_srs_boss_1" : [
+    [1, {
+      "pool" : [
+        {"weight" : 1.0, "item" : [ "money", 100]}
+      ]
+    } ]
+  ]
+}
+

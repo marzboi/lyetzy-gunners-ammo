@@ -1,0 +1,21 @@
+{
+  "projectileName" : "gs_zombi_srs_deadbody_sound",
+  "image" : "sound.png",
+  "animationCycle" : 1.0,
+  "physics" : "laser",
+  "piercing" : true,
+  "frameNumber" : 1,
+  "renderLayer" : "Player-1",
+  "timeToLive" : 0.0,
+  "loops" : false,
+  "actionOnReap" : [
+    {
+      "action" : "sound",
+      "options" : [ "/gunshop/sound/monster/gs_zombi_deadbody.ogg" ]
+    }
+  ],
+  "power" : 0,
+  "speed" : 0,
+  "damageType" : "NoDamage",
+  "damageKind" : "default"
+}

@@ -1,0 +1,49 @@
+{
+  "objectName" : "gs_chinook",
+  "category" : "crafting",
+  "rarity" : "legendary",
+  "description" : "She can transport me anywhere!",
+  "shortdescription" : "gs_chinook",
+  "race" : "generic",
+  "printable" : false,
+  "price" : 0,
+  
+  "apexDescription" : "Wow! 
+This is U.S.C.M's chinook!... but,empty. 
+..Wait,^red;WHY IS IT HERE?",
+  "avianDescription" : "Wow! 
+This is U.S.C.M's chinook!... but,empty. 
+..Wait,^red;WHY IS IT HERE?",
+  "floranDescription" : "Wow! 
+This is U.S.C.M's chinook!... but,empty. 
+..Wait,^red;WHY IS IT HERE?",
+  "glitchDescription" : "Wow! 
+This is U.S.C.M's chinook!... but,empty. 
+..Wait,^red;WHY IS IT HERE?",
+  "humanDescription" : "Wow! 
+This is U.S.C.M's chinook!... but,empty. 
+..Wait,^red;WHY IS IT HERE?",
+  "hylotlDescription" : "Wow! 
+This is U.S.C.M's chinook!... but,empty. 
+..Wait,^red;WHY IS IT HERE?",
+  "novakidDescription" : "Wow! 
+This is U.S.C.M's chinook!... but,empty. 
+..Wait,^red;WHY IS IT HERE?",
+  
+  "inventoryIcon" : "gs_chinook.png",
+  "orientations" : [
+	{
+      "imageLayers" : [ { "image" : "gs_chinook.png:<color>.<frame>", "fullbright" : true }, { "image" : "gs_chinooklit.png:<color>.<frame>" } ],
+	  
+	  "imagePosition" : [0, 0],
+	  "frames" : 2,
+	  "animationCycle" : 0.1,
+
+      "spaceScan" : 0.1
+	}
+  ],
+    
+
+  "soundEffect" : "/gunshop/sound/object/helicopter.ogg",
+  "soundEffectRangeMultiplier" : 1.0
+}

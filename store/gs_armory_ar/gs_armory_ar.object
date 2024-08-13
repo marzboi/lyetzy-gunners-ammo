@@ -1,0 +1,68 @@
+{
+  "objectName" : "gs_armory_ar",
+  "price" : 10,
+  "colonyTags" : ["crafting"],
+  "rarity" : "Legendary",
+  "category" : "other",
+  "description" : "Gunners carrier ARMORY",
+  "shortdescription" : "^red;Side weapon",
+  "race" : "generic",
+  "printable" : false,
+
+  "apexDescription" : "ook, hoo hoo!",
+  "avianDescription" : "Tweet,tweet!",
+  "floranDescription" : "Awssssssssome!",
+  "glitchDescription" : "Beep!",
+  "humanDescription" : "YEAAAAAAH!",
+  "hylotlDescription" : "Flop,flop!",
+  "novakidDescription" : "I am sure that winchester must be the best firearm.
+Oh, Sorry SAA!",
+
+  "interactAction" : "OpenMerchantInterface",
+  "interactData" : {
+    "config" : "/interface/windowconfig/merchant.config",
+    "paneLayoutOverride" : {
+      "windowtitle" : {
+        "title" : "Gunners carrier ARMORY",
+        "subtitle" : "^green;Semiauto / Automatic rifles"
+      }
+    },
+    "buyFactor" : 1.0,
+    "sellFactor" : 0.5,
+    "items" : [
+      { "item" : { "name" : "gs_a545" } },
+      { "item" : { "name" : "gs_ak47" } },
+      { "item" : { "name" : "gs_ak74" } },
+      { "item" : { "name" : "gs_an94" } },
+      { "item" : { "name" : "gs_ash127" } },
+      { "item" : { "name" : "gs_aug" } },
+      { "item" : { "name" : "gs_fal" } },
+      { "item" : { "name" : "gs_famas" } },
+      { "item" : { "name" : "gs_g3" } },
+      { "item" : { "name" : "gs_g11" } },
+      { "item" : { "name" : "gs_g36" } },
+      { "item" : { "name" : "gs_k2" } },
+      { "item" : { "name" : "gs_l85" } },
+      { "item" : { "name" : "gs_m14" } },
+      { "item" : { "name" : "gs_m16a3" } },
+      { "item" : { "name" : "gs_mkb42" } },
+      { "item" : { "name" : "gs_scarl" } },
+      { "item" : { "name" : "gs_sg550" } },
+      { "item" : { "name" : "gs_stg44" } }
+    ]
+  },
+
+
+  "inventoryIcon" : "gs_armory_ar.png",
+  "orientations" : [
+	{
+	  "dualImage" : "gs_armory_ar.png:<color>.<frame>",
+	  
+	  "imagePosition" : [0, 0],
+	  "frames" : 1,
+	  "animationCycle" : 0.1,
+
+      "spaceScan" : 0.1
+	}
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "itemName" : "6_uscm_1",
+  "inventoryIcon" : "icons.png",
+  "dropCollision" : [-4.0, -3.0, 4.0, 3.0],
+  "rarity" : "common",
+  "price" : 20000,
+  "shortdescription" : "^yellow;U.S.C.M BDU^white; Helmet",
+  "description" : "U.S.C.M BDU Woodland
+^green;DAMAGE+
+^green;HEALTH++
+^red;ENERGY-",
+  "inspectionKind" : "armor",
+  "tooltipKind" : "armor",
+
+  "maleFrames" : "head.png",
+  "femaleFrames" : "head.png",
+  "mask" : "mask.png",
+
+  "level" : 6,
+  "leveledStatusEffects" : [
+    {
+      "levelFunction" : "standardArmorLevelPowerMultiplierMultiplier",
+      "stat" : "powerMultiplier",
+      "baseMultiplier" : 1.15
+    },
+    {
+      "levelFunction" : "standardArmorLevelProtectionMultiplier",
+      "stat" : "protection",
+      "amount" : 0.3
+    },
+    {
+      "levelFunction" : "standardArmorLevelMaxHealthMultiplier",
+      "stat" : "maxHealth",
+      "amount" : 9
+    }
+  ]
+}

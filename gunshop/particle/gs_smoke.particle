@@ -1,0 +1,19 @@
+{
+  "kind" : "gs_smoke",
+  "definition" : {
+    "type" : "animated",
+    "size" : 0.9,
+    "animation" : "/gunshop/particle/gunsmoke/gunsmoke.animation",
+    "position" : [0, 0],
+    "finalVelocity" : [0, 2],
+    "approach" : [0, 20],
+    "destructionAction" : "shrink",
+    "destructionTime" : 0.5,
+    "fade" : 0.5,
+    "layer" : "front",
+    "timeToLive" : 0.3,
+    "variance" : {
+      "initialVelocity" : [0.5, 0.5]
+    }
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "name" : "body",
+  "category" : "gs_zombi_srs",
+  "type" : "body",
+
+  "frames" : {
+    "body" : "gs_zombi_srs.png"
+  }
+}

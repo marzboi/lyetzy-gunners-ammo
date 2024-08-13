@@ -1,0 +1,14 @@
+{
+  "projectileName" : "gs_srs_midboss_deadbody2",
+  "image" : "gs_srs_midboss_deadbody2.png",
+  "animationCycle" : 1.0,
+  "physics" : "laser",
+  "piercing" : true,
+  "frameNumber" : 1,
+  "renderLayer" : "Object+1",
+  "timeToLive" : 600.0,
+  "power" : 0,
+  "speed" : 0,
+  "damageType" : "NoDamage",
+  "damageKind" : "default"
+}

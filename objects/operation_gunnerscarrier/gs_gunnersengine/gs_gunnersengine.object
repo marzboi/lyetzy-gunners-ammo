@@ -1,0 +1,29 @@
+{
+  "objectName" : "gs_gunnersengine",
+  "category" : "crafting",
+  "rarity" : "legendary",
+  "description" : "She can transport me anywhere!",
+  "shortdescription" : "gs_gunnersengine",
+  "race" : "generic",
+  "printable" : false,
+  "price" : 0,
+  
+  "apexDescription" : "Gunners carrier.",
+  "avianDescription" : "Gunners carrier.",
+  "floranDescription" : "Gunners carrier.",
+  "glitchDescription" : "Gunners carrier.",
+  "humanDescription" : "Gunners carrier.",
+  "hylotlDescription" : "Gunners carrier.",
+  "novakidDescription" : "Gunners carrier.",
+  
+  "inventoryIcon" : "gs_gunnersengine.png",
+  "orientations" : [
+	{
+      "imageLayers" : [ { "image" : "gs_gunnersengine.png:<color>.<frame>", "fullbright" : true }, { "image" : "gs_gunnersenginelit.png:<color>.<frame>" } ],
+	  
+	  "imagePosition" : [0, 0],
+	  "frames" : 2,
+	  "animationCycle" : 0.1
+	}
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "itemName" : "gs_srs_pw",
+  "rarity" : "legendary",
+  "inventoryIcon" : "gs_srs_pw.png",
+  "description" : "^white;The text is as follows. ^#d8d8d8;pw,4444
+^white;And, there is a scrawl written by someone else.
+^red;There are no survivors",
+  "shortdescription" : "Classified document"
+}

@@ -1,0 +1,42 @@
+{
+  "animationCustom" : {
+    "animatedParts" : { "parts" : {
+      "gunshoplight" : {
+        "properties" : {
+          "zLevel" : 5,
+          "centered" : true,
+          "offset" : [-1.25, -0.375],
+          "transformationGroups" : ["muzzle"],
+          "image" : "/items/active/weapons/ranged/abilities/gunshoplight/gunshoplight.png"
+        }
+      }
+    }},
+    "lights" : {
+      "gunshoplightSpread" : {
+        "active" : false,
+        "position" : [1.5, -0.3],
+        "transformationGroups" : ["muzzle"],
+        "color" : [0, 0, 0]
+      },
+      "gunshoplight" : {
+        "active" : false,
+        "position" : [1.5, -0.3],
+        "transformationGroups" : ["muzzle"],
+        "color" : [255, 255, 255],
+        "pointLight" : true,
+        "pointAngle" : 0.00,
+        "pointBeam" : 20
+      }
+    },
+    "sounds" : {
+      "gunshoplight" : [ "/sfx/tools/gunshoplight_toggle.ogg" ]
+    }
+  },
+
+  "ability" : {
+    "name" : "Gunshoplight",
+    "type" : "gunshoplight",
+    "scripts" : ["/items/active/weapons/ranged/abilities/gunshoplight/gunshoplight.lua"],
+    "class" : "Gunshoplight"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "projectileName" : "firstaid_1b",
+  "image" : "firstaid_1b.png",
+  "animationCycle" : 0.5,
+  "piercing" : true,
+  "renderLayer" : "Player+1",
+  "fullbright" : true,
+  "bounces" : 1,
+  "physics" : "stickygrenade",
+  "frameNumber" : 1,
+  "timeToLive" : 3,
+  "power" : 0,
+  "speed" : 15,
+  "damageType" : "NoDamage",
+  "damageKind" : "default"
+}

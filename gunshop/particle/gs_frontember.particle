@@ -1,0 +1,19 @@
+{
+  "kind" : "gs_frontember",
+  "definition" : {
+    "type" : "ember",
+    "size" : 0.9,
+    "color" : [253, 160, 57, 255],
+    "fade" : 0.9,
+    "initialVelocity" : [5.0, 0.0],
+    "finalVelocity" : [35.0, 0.0],
+    "approach" : [20, 0],
+    "timeToLive" : 0.3,
+    "layer" : "front",
+	"fullbright" : true,
+    "variance" : {
+      "initialVelocity" : [2.0, 2.0],
+      "color" : [253, 218, 19, 255]
+    }
+  }
+}

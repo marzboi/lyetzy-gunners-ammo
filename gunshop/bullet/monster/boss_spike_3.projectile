@@ -1,0 +1,24 @@
+{
+  "projectileName" : "boss_spike_3",
+  "image" : "boss_spike_3.png",
+  "animationCycle" : 2.0,
+  "piercing" : true,
+  "bounces" : 0,
+  "frameNumber" : 20,
+  "renderLayer" : "Player+1",
+  "physics" : "laser",
+  "timeToLive" : 2.0,
+  "actionOnReap" : [
+    {
+      "action" : "projectile",
+      "type" : "boss_spike_4",
+	  "angle" : 0,
+      "inheritDamageFactor" : 1
+    }
+  ],
+  "power" : 5.0,
+  "speed" : 0,
+  "damageKind" : "default",
+  "damageType" : "NoDamage",
+  "fullbright" : true
+}

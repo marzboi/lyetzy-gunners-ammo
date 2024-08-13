@@ -1,0 +1,10 @@
+{
+  "itemName" : "trizium",
+  "price" : 1000,
+  "rarity" : "legendary",
+  "category" : "craftingMaterial",
+  "inventoryIcon" : "trizium.png",
+  "description" : "Trizium is one of the brilliant achievement in mankind.",
+  "shortdescription" : "Trizium",
+  "itemTags" : [ "material" ]
+}

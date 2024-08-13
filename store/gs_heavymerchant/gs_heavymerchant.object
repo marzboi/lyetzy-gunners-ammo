@@ -1,0 +1,54 @@
+{
+  "objectName" : "gs_heavymerchant",
+  "price" : 10,
+  "colonyTags" : ["crafting"],
+  "rarity" : "Legendary",
+  "category" : "other",
+  "description" : "''Any sufficiently advanced technology is indistinguishable from magic.''",
+  "shortdescription" : "^#ea4dea;Akemi's Arsenal",
+  "race" : "generic",
+  "printable" : false,
+
+  "apexDescription" : "ook, hoo hoo!",
+  "avianDescription" : "Tweet,tweet!",
+  "floranDescription" : "Awssssssssome!",
+  "glitchDescription" : "Beep!",
+  "humanDescription" : "YEAAAAAAH!",
+  "hylotlDescription" : "Flop,flop!",
+  "novakidDescription" : "I am sure that winchester must be the best firearm.
+Oh, Sorry SAA!",
+
+  "interactAction" : "OpenMerchantInterface",
+  "interactData" : {
+    "config" : "/interface/windowconfig/merchant.config",
+    "paneLayoutOverride" : {
+      "windowtitle" : {
+        "title" : "^#ea4dea;Akemi's arsenal",
+        "subtitle" : "How'bout this magical..weapons?"
+      }
+    },
+    "buyFactor" : 1.0,
+    "sellFactor" : 0.5,
+    "items" : [
+      { "item" : { "name" : "gs_coltsaa" } },
+      { "item" : { "name" : "gs_c96" } }
+    ]
+  },
+
+
+  "inventoryIcon" : "gs_heavymerchant.png:default.0",
+  "orientations" : [
+    {
+      "imageLayers" : [ { "image" : "gs_heavymerchant.png:<color>.<frame>", "fullbright" : true }, { "image" : "gs_heavymerchantcover.png:<color>.<frame>" } ],
+
+      "lightPosition" : [0, 0],
+
+      "imagePosition" : [0, 0],
+      "frames" : 20,
+      "animationCycle" : 2.0,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    }
+  ]
+}

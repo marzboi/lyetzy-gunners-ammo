@@ -1,0 +1,39 @@
+{
+  "objectName" : "gs_srssign",
+  "category" : "crafting",
+  "rarity" : "legendary",
+  "description" : "object.",
+  "shortdescription" : "gs_srssign",
+  "race" : "generic",
+  "printable" : false,
+  "price" : 0,
+  
+  "apexDescription" : "S.R.S Sign.
+Maybe protectorate had this bulding.",
+  "avianDescription" : "S.R.S Sign.
+Maybe protectorate had this bulding.",
+  "floranDescription" : "S.R.S Sign.
+Maybe protectorate had this bulding.",
+  "glitchDescription" : "S.R.S Sign.
+Maybe protectorate had this bulding.",
+  "humanDescription" : "S.R.S Sign.
+Maybe protectorate had this bulding.",
+  "hylotlDescription" : "S.R.S Sign.
+Maybe protectorate had this bulding.",
+  "novakidDescription" : "S.R.S Sign.
+Maybe protectorate had this bulding.",
+  
+  "inventoryIcon" : "gs_srssign.png",
+  "orientations" : [
+	{
+	  "dualImage" : "gs_srssign.png:<color>.<frame>",
+	  
+	  "imagePosition" : [0, 0],
+	  "frames" : 1,
+	  "animationCycle" : 0.1,
+	  "fullbright" : true,
+
+      "spaceScan" : 0.1
+	}
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "projectileName" : "boss_spike_1",
+  "image" : "boss_spike_1.png",
+  "animationCycle" : 1.0,
+  "piercing" : true,
+  "bounces" : -1,
+  "frameNumber" : 1,
+  "renderLayer" : "Player+1",
+  "physics" : "grenade",
+  "timeToLive" : 0.5,
+  "actionOnReap" : [
+    {
+      "action" : "projectile",
+      "type" : "boss_spike_2",
+	  "angle" : -90,
+      "inheritDamageFactor" : 1
+    }
+  ],
+  "power" : 5.0,
+  "speed" : 200,
+  "damageKind" : "default",
+  "damageType" : "NoDamage",
+  "fullbright" : true
+}

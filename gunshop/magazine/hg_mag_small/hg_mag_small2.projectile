@@ -1,0 +1,24 @@
+{
+  "projectileName" : "hg_mag_small2",
+  "image" : "hg_mag_small.png",
+  "animationCycle" : 0.4,
+  "physics" : "grenade",
+  "piercing" : true,
+  "flippable" : true,
+  "bounces" : 1,
+  "speed" : 10,
+  "renderLayer" : "Player-1",
+  "frameNumber" : 1,
+  "timeToLive" : 5,
+  "damageKindImage" : "icon.png",
+  "power" : 0,
+  "damageType" : "NoDamage",
+  "damageKind" : "default",
+  "actionOnReap" : [
+    {
+      "action" : "projectile",
+      "type" : "hg_mag_small3",
+      "fuzzAngle" : 360
+    }
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "name" : "boss_1arm",
+  "category" : "gs_srs_boss_1",
+  "type" : "arm",
+
+  "frames" : {
+    "arm" : "boss_1arm.png"
+  }
+}

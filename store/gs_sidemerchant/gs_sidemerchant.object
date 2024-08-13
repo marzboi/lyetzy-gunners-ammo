@@ -1,0 +1,56 @@
+{
+  "objectName" : "gs_sidemerchant",
+  "price" : 10,
+  "colonyTags" : ["crafting"],
+  "rarity" : "Legendary",
+  "category" : "other",
+  "description" : "Most popular clothes store!",
+  "shortdescription" : "^red;REVI'S",
+  "race" : "generic",
+  "printable" : false,
+
+  "apexDescription" : "ook, hoo hoo!",
+  "avianDescription" : "Tweet,tweet!",
+  "floranDescription" : "Awssssssssome!",
+  "glitchDescription" : "Beep!",
+  "humanDescription" : "YEAAAAAAH!",
+  "hylotlDescription" : "Flop,flop!",
+  "novakidDescription" : "I am sure that winchester must be the best firearm.
+Oh, Sorry SAA!",
+
+  "interactAction" : "OpenMerchantInterface",
+  "interactData" : {
+    "config" : "/interface/windowconfig/merchant.config",
+    "paneLayoutOverride" : {
+      "windowtitle" : {
+        "title" : "^red;REVI'S favorite",
+        "subtitle" : "Size of bullet is irrelevant to kill."
+      }
+    },
+    "buyFactor" : 1.0,
+    "sellFactor" : 0.5,
+    "items" : [
+      { "item" : { "name" : "gs_9a91" } },
+      { "item" : { "name" : "gs_asval" } },
+      { "item" : { "name" : "gs_ots14" } },
+      { "item" : { "name" : "gs_sr3m" } }
+    ]
+  },
+
+
+  "inventoryIcon" : "gs_sidemerchant.png:default.0",
+  "orientations" : [
+    {
+      "imageLayers" : [ { "image" : "gs_sidemerchant.png:<color>.<frame>", "fullbright" : true }, { "image" : "gs_sidemerchantcover.png:<color>.<frame>" } ],
+
+      "lightPosition" : [0, 0],
+
+      "imagePosition" : [0, 0],
+      "frames" : 100,
+      "animationCycle" : 10.0,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    }
+  ]
+}

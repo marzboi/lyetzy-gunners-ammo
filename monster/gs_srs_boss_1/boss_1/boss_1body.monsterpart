@@ -1,0 +1,9 @@
+{
+  "name" : "boss_1body",
+  "category" : "gs_srs_boss_1",
+  "type" : "body",
+
+  "frames" : {
+    "body" : "boss_1body.png"
+  }
+}

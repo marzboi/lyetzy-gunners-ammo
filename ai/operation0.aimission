@@ -1,0 +1,17 @@
+{
+  "missionName" : "operation0",
+  "icon" : "operation0.png",
+  "missionWorld" : "operation0",
+
+  "speciesText" : {
+    "default" : {
+      "buttonText" : "S.C.A.A rendezvous point",
+      "repeatButtonText" : "S.C.A.A rendezvous point",
+      "selectSpeech" : {
+        "animation" : "talk",
+        "text" : "This is SCAA rendezvous point:Destroyer 'Scavenger'.",
+        "speedModifier" : 1.0
+      }
+    }
+  }
+}

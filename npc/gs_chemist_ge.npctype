@@ -1,0 +1,52 @@
+{
+  "type" : "gs_chemist_ge",
+  "baseType" : "gs_rifleman_ge",
+
+  // This npctype is used just as a base for the other crewmemberchemist*
+  // npctypes. Don't use it directly for spawning NPCs.
+
+  "scriptConfig" : {
+    "behaviorConfig" : {
+      "emptyHands" : true
+    },
+
+    "crew" : {
+      "role" : {
+        "type" : "Officer",
+        "name" : "Officer",
+        "field" : "Officer",
+        "uniformColorIndex" : 6
+      }
+    },
+
+    "dialog" : {
+      "crewmember" : {
+        "roleDescription" : {
+          "default" : {
+            "default" : [
+              "Ich bin bereit zu kämpfen, Genosse!"
+            ]
+          }
+        },
+        "combatBenefit" : {
+          "default" : {
+            "default" : [
+              "Nimm das!",
+              "Angriff!!",
+              "Ich gebe dir Deckung!"
+            ]
+          }
+        }
+      }
+    }
+  },
+
+  "items" : {
+    "default" : [
+      [0, [
+          {
+          }
+        ] ]
+    ]
+  }
+}

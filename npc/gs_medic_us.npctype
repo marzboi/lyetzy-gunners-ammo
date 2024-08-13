@@ -1,0 +1,73 @@
+{
+  "type" : "gs_medic_us",
+  "baseType" : "gs_rifleman_us",
+
+  "scriptConfig" : {
+    "behaviorConfig" : {
+      "emptyHands" : true
+    },
+
+    "crew" : {
+      "role" : {
+        "type" : "medic",
+        "name" : "Medic",
+        "field" : "Medical",
+        "uniformColorIndex" : 3,
+
+        "benefits" : [
+          {
+            "type" : "Regeneration",
+            "value" : 10
+          }
+        ]
+      },
+      "ranks" : [
+        "Second Lieutenant",
+        "First Lieutenant"
+      ]
+    },
+
+    "dialog" : {
+      "crewmember" : {
+        "roleDescription" : {
+          "default" : {
+            "default" : [
+              "Prepped and read."
+            ]
+          }
+        },
+        "fieldBenefit" : {
+          "default" : {
+            "default" : [
+              "Need medical attention?",
+              "Did someone page me?",
+              "State the nature of your medical emergency."
+            ]
+          }
+        },
+        "combatBenefit" : {
+          "default" : {
+            "default" : [
+              "Right away!",
+              "Stat!!",
+              "Sir, EKG is flatlining! Give me a defib stat!"
+            ]
+          }
+        }
+      }
+    }
+  },
+
+  "items" : {
+    "default" : [
+      [0, [
+          {
+            "head" : [ { "name" : "gs_usmedic1" } ],
+            "chest" : [ { "name" : "gs_usmedic2" } ],
+            "legs" : [ { "name" : "gs_usmedic3" } ],
+            "primary" : [ "gs_m1911a1" ]
+          }
+        ] ]
+    ]
+  }
+}

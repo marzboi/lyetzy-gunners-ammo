@@ -1,0 +1,40 @@
+{
+  "projectileName" : "firstaid_3",
+  "image" : "icon.png",
+  "animationCycle" : 0.25,
+  "piercing" : true,
+  "renderLayer" : "Player+1",
+  "fullbright" : true,
+  "bounces" : 0,
+  "frameNumber" : 1,
+  "timeToLive" : 0,
+  "actionOnReap" : [
+    {
+      "action" : "projectile",
+      "type" : "firstaidzone_3",
+      "angle" : 0
+    },
+    {
+      "action" : "projectile",
+      "type" : "firstaid_1b",
+      "fuzzAngle" : 15,
+      "angle" : 20
+    },
+    {
+      "action" : "projectile",
+      "type" : "firstaid_1d",
+      "fuzzAngle" : 15,
+      "angle" : 160
+    },
+    {
+      "action" : "sound",
+      "options" : [
+        "/gunshop/sound/gunshopfirstaid2.ogg"
+      ]
+    }
+  ],
+  "power" : 0,
+  "speed" : 0,
+  "damageType" : "NoDamage",
+  "damageKind" : "default"
+}
