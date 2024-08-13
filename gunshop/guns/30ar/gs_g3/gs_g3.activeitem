@@ -5,6 +5,8 @@
   "maxStack" : 1,
   "rarity" : "common",
   "level" : 1,
+  "totalAmmo": 20,
+  "ammoPerShoot": 1,
   "shortdescription" : "G3",
   "category" : "^#7c7c7c;Heckler & Koch",
   "description" : 

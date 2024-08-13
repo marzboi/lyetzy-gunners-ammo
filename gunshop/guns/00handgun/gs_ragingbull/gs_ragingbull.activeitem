@@ -5,6 +5,8 @@
   "maxStack" : 1,
   "rarity" : "common",
   "level" : 1,
+  "totalAmmo": 5,
+  "ammoPerShoot": 1,
   "shortdescription" : ".454 Raging bull",
   "category" : "^#7c7c7c;Taurus International",
   "description" : 

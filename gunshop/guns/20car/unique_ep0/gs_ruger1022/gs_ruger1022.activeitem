@@ -5,6 +5,8 @@
   "maxStack" : 1,
   "rarity" : "common",
   "level" : 1,
+  "totalAmmo": 25,
+  "ammoPerShoot": 1,
   "shortdescription" : "Ruger 10/22",
   "category" : "^#7c7c7c;Sturm, Ruger & Co.",
   "description" : 

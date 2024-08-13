@@ -5,6 +5,8 @@
   "maxStack" : 1,
   "rarity" : "common",
   "level" : 1,
+  "totalAmmo": 30,
+  "ammoPerShoot": 1,
   "shortdescription" : "M1928A1 Thompson",
   "category" : "^#7c7c7c;U.S. Military",
   "description" : 

@@ -5,6 +5,8 @@
   "maxStack" : 1,
   "rarity" : "common",
   "level" : 1,
+  "totalAmmo": 50,
+  "ammoPerShoot": 1,
   "shortdescription" : "Spectre M4",
   "category" : "^#7c7c7c;SITES",
   "description" : 

@@ -5,20 +5,23 @@ require "/scripts/interp.lua"
 GunFire = WeaponAbility:new()
 
 function GunFire:init()
-
   self.weapon:setStance(self.stances.idle)
-
   self.cooldownTimer = self.fireTime
 
-  self.weaponIdentifier = config.getParameter("itemName")
-  self.totalAmmo = config.getParameter("totalAmmo")
   self.maxAmmo = config.getParameter("totalAmmo")
   self.ammoPerShoot = config.getParameter("ammoPerShoot")
+
+  if not storage.totalAmmo then
+    storage.totalAmmo = self.maxAmmo
+  end
+
+  self.totalAmmo = storage.totalAmmo
 
   self.weapon.onLeaveAbility = function()
     self.weapon:setStance(self.stances.idle)
   end
 end
+
 
 function GunFire:draw()
   self.weapon:setStance(self.stances.draw)
@@ -383,7 +386,7 @@ function GunFire:draw20()
 end
 
 function GunFire:update(dt, fireMode, shiftHeld)
-  self.totalAmmo = player.getProperty(self.weaponIdentifier .. "_totalAmmo", self.maxAmmo)
+  self.totalAmmo = storage.totalAmmo
 
   WeaponAbility.update(self, dt, fireMode, shiftHeld)
 
@@ -401,6 +404,7 @@ function GunFire:update(dt, fireMode, shiftHeld)
     end
   end
 end
+
 
 function GunFire:auto()
   self.weapon:setStance(self.stances.fire)
@@ -586,14 +590,15 @@ function GunFire:aimVector(inaccuracy)
 end
 
 function GunFire:consumeAmmo()
-  if self.totalAmmo >= self.ammoPerShoot then
-    self.totalAmmo = self.totalAmmo - self.ammoPerShoot
-    player.setProperty(self.weaponIdentifier .. "_totalAmmo", self.totalAmmo)
+  if storage.totalAmmo >= self.ammoPerShoot then
+    storage.totalAmmo = storage.totalAmmo - self.ammoPerShoot
+    self.totalAmmo = storage.totalAmmo
     return true
   else
     return false
   end
 end
+
 
 function GunFire:damagePerShot()
   return (self.baseDamage or self.baseDps ) * (self.baseDamageMultiplier or 1.0) * config.getParameter("damageLevelMultiplier") / self.projectileCount

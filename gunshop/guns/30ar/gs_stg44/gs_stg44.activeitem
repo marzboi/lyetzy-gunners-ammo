@@ -5,6 +5,8 @@
   "maxStack" : 1,
   "rarity" : "common",
   "level" : 1,
+  "totalAmmo": 30,
+  "ammoPerShoot": 1,
   "shortdescription" : "StG44",
   "category" : "^#7c7c7c;Steyr-Daimler-Puch",
   "description" : 
