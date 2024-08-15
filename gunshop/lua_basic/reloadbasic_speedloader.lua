@@ -27,7 +27,7 @@ function GunFire:update(dt, fireMode, shiftHeld)
     and not world.lineTileCollision(mcontroller.position(), self:firePosition()) then
 
     if self.fireType == "auto" then
-      self:update()
+      self:reload()
       self:setState(self.auto)
     end
   end
