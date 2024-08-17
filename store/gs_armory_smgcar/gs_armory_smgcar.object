@@ -55,6 +55,7 @@ Oh, Sorry SAA!",
       { "item" : { "name" : "bluestar_smg1" } },
       { "item" : { "name" : "bluestar_smg2" } },
       { "item" : { "name" : "gs_tpye1" } },
+      { "item" : { "name" : "gs_mp7" } },
       { "item" : { "name" : "mk_g512smg" } }
     ]
   },
