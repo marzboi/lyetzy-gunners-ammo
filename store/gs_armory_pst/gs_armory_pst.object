@@ -51,6 +51,9 @@ Oh, Sorry SAA!",
       { "item" : { "name" : "gs_ragingbull" } },
       { "item" : { "name" : "gs_stechkin" } },
       { "item" : { "name" : "gs_coltsaa" } },
+      { "item" : { "name" : "gs_desertangel" } },
+      { "item" : { "name" : "gs_guardian" } },
+      { "item" : { "name" : "gs_m3predators" } },
       { "item" : { "name" : "gs_c96" } }
     ]
   },

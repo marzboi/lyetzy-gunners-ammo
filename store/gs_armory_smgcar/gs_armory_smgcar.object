@@ -50,7 +50,12 @@ Oh, Sorry SAA!",
       { "item" : { "name" : "gs_vityaz" } },
       { "item" : { "name" : "gs_m1carbine" } },
       { "item" : { "name" : "gs_m4a1" } },
-      { "item" : { "name" : "gs_m712" } }
+      { "item" : { "name" : "gs_m712" } },
+      { "item" : { "name" : "gs_mpx" } },
+      { "item" : { "name" : "bluestar_smg1" } },
+      { "item" : { "name" : "bluestar_smg2" } },
+      { "item" : { "name" : "gs_tpye1" } },
+      { "item" : { "name" : "mk_g512smg" } }
     ]
   },
 

@@ -48,10 +48,11 @@ Oh, Sorry SAA!",
       { "item" : { "name" : "gs_mkb42" } },
       { "item" : { "name" : "gs_scarl" } },
       { "item" : { "name" : "gs_sg550" } },
+      { "item" : { "name" : "mk_k4rifle" } },
+      { "item" : { "name" : "gs_honeybadger" } },
       { "item" : { "name" : "gs_stg44" } }
     ]
   },
-
 
   "inventoryIcon" : "gs_armory_ar.png",
   "orientations" : [

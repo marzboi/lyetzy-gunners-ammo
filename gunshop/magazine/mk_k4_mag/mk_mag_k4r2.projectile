@@ -1,0 +1,24 @@
+{
+  "projectileName" : "mk_mag_k4r2",
+  "image" : "mk_mag_k4r.png",
+  "animationCycle" : 0.4,
+  "physics" : "grenade",
+  "piercing" : true,
+  "flippable" : true,
+  "bounces" : 1,
+  "speed" : 10,
+  "renderLayer" : "Player+1",
+  "frameNumber" : 4,
+  "timeToLive" : 5,
+  "damageKindImage" : "icon.png",
+  "power" : 0,
+  "damageType" : "NoDamage",
+  "damageKind" : "default",
+  "actionOnReap" : [
+    {
+      "action" : "projectile",
+      "type" : "mk_mag_k4r3",
+      "fuzzAngle" : 360
+    }
+  ]
+}
