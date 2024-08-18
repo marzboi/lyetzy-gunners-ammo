@@ -15,8 +15,7 @@
   "glitchDescription" : "Beep!",
   "humanDescription" : "YEAAAAAAH!",
   "hylotlDescription" : "Flop,flop!",
-  "novakidDescription" : "I am sure that winchester must be the best firearm.
-Oh, Sorry SAA!",
+  "novakidDescription" : "I am sure that winchester must be the best firearm. Oh, Sorry SAA!",
 
   "interactAction" : "OpenMerchantInterface",
   "interactData" : {
@@ -47,14 +46,14 @@ Oh, Sorry SAA!",
       { "item" : { "name" : "gs_usp45" } },
       { "item" : { "name" : "gs_waltherppk" } },
       { "item" : { "name" : "gs_webley" } },
-      { "item" : { "name" : "gs_deserteagle" } },
+      { "item" : { "name" : "gs_coltsaa" } },
       { "item" : { "name" : "gs_ragingbull" } },
       { "item" : { "name" : "gs_stechkin" } },
-      { "item" : { "name" : "gs_coltsaa" } },
+      { "item" : { "name" : "gs_c96" } },
+      { "item" : { "name" : "gs_deserteagle" } },
       { "item" : { "name" : "gs_desertangel" } },
       { "item" : { "name" : "gs_guardian" } },
-      { "item" : { "name" : "gs_m3predators" } },
-      { "item" : { "name" : "gs_c96" } }
+      { "item" : { "name" : "gs_m3predators" } }
     ]
   },
   

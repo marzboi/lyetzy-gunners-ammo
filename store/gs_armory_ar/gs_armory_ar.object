@@ -15,8 +15,7 @@
   "glitchDescription" : "Beep!",
   "humanDescription" : "YEAAAAAAH!",
   "hylotlDescription" : "Flop,flop!",
-  "novakidDescription" : "I am sure that winchester must be the best firearm.
-Oh, Sorry SAA!",
+  "novakidDescription" : "I am sure that winchester must be the best firearm. Oh, Sorry SAA!",
 
   "interactAction" : "OpenMerchantInterface",
   "interactData" : {
