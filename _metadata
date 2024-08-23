@@ -1,7 +1,7 @@
 {
   "author" : "Marz",
   "description" : "I have take the time to tweak the great mod by Ravy, and make it a do a couple different things compared to the original.\n\n- It will now use an Ammo Counter rather than energy, shots will not consume energy so you can use techs.\n- Remove the long draw out animations that also resets your energy to 0.\n- Remove Energy not regenerating while this weapons are equipt.\n- Remove the weight restrictions by weapons so its more casual.\n\nTo Do.\n\n- an UI that displays your ammunition left\n- Proper tags so the weapons can scale with mods like RPG Growth.\n\n----\n\nPlease let me know if you find any bugs!\n\nCredits to https://steamcommunity.com/id/lyetzi for the great mod, and also the maker of FFS",
-  "friendlyName" : "Lyetzi's Gunners Mod Tweaks - Ammo Usage and Instant Pull Out",
+  "friendlyName" : "Lyetzi's Gunners Mod - Ammo Usage and Instant Pull Out",
   "link" : "steam://url/CommunityFilePage/2844835086",
   "name" : "Lyetzi's Gunners Mod",
   "steamContentId" : "2844835086",
