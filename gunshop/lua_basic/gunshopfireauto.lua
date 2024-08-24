@@ -5,17 +5,25 @@ require "/scripts/interp.lua"
 GunFire = WeaponAbility:new()
 
 function GunFire:init()
-  self.weapon:setStance(self.stances.idle)
-  
-  self.cooldownTimer = 0
+  if storage.initialLoad == nil then
+    storage.initialLoad = true
+  end
+
+  if storage.initialLoad then
+    self:setState(self.draw)
+    self.cooldownTimer = self.stances.draw.duration
+  else
+    self.weapon:setStance(self.stances.idle)
+    self.cooldownTimer = 0
+  end
 
   self.maxAmmo = config.getParameter("totalAmmo")
   self.ammoPerShoot = config.getParameter("ammoPerShoot")
-
+  
   if not storage.totalAmmo then
     storage.totalAmmo = self.maxAmmo
   end
-
+  
   self.totalAmmo = storage.totalAmmo
 
   self.weapon.onLeaveAbility = function()
@@ -25,7 +33,7 @@ end
 
 function GunFire:draw()
   self.weapon:setStance(self.stances.draw)
-  status.overConsumeResource("energy", 99999999)
+  -- status.overConsumeResource("energy", 99999999)
 
   local progress = 0
   util.wait(self.stances.draw.duration, function()
@@ -351,7 +359,7 @@ end
 
 function GunFire:draw19()
   self.weapon:setStance(self.stances.draw19)
-  status.setResource("energy", 100)
+  -- status.setResource("energy", 100)
 
   local progress = 0
   util.wait(self.stances.draw19.duration, function()
@@ -371,7 +379,8 @@ end
 function GunFire:draw20()
   self.weapon:setStance(self.stances.draw20)
   status.setResourceLocked("energy")
-
+  storage.initialLoad = false
+  
   local progress = 0
   util.wait(self.stances.draw20.duration, function()
     local from = self.stances.draw20.weaponOffset or {0,0}
