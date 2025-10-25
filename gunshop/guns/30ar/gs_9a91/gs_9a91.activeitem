@@ -6,7 +6,7 @@
   "rarity" : "common",
   "level" : 1,
   "totalAmmo": 20,
-  "ammoPerShoot": 1,
+  
   "shortdescription" : "9A-91",
   "category" : "^#7c7c7c;KBP",
   "description" : 

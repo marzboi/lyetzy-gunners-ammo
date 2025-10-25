@@ -6,7 +6,7 @@
   "rarity" : "common",
   "level" : 1,
   "totalAmmo": 5,
-  "ammoPerShoot": 1,
+  
   "shortdescription" : "^#ffff00;The Guardian",
   "category" : "^#7c7c7c;Per Military Tech",
   "description" : 

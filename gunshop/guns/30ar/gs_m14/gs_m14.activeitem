@@ -6,7 +6,7 @@
   "rarity" : "common",
   "level" : 1,
   "totalAmmo": 20,
-  "ammoPerShoot": 1,
+  
   "shortdescription" : "M14",
   "category" : "^#7c7c7c;U.S. Military",
   "description" : 

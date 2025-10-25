@@ -6,7 +6,7 @@
   "rarity" : "common",
   "level" : 1,
   "totalAmmo": 15,
-  "ammoPerShoot": 1,
+  
   "shortdescription" : "M1 Carbine",
   "category" : "^#7c7c7c;U.S. Military",
   "description" : 

@@ -6,7 +6,7 @@
   "rarity" : "common",
   "level" : 1,
   "totalAmmo": 7,
-  "ammoPerShoot": 1,
+  
   "shortdescription" : "M1911",
   "category" : "^#7c7c7c;Colt Manuf. Company",
   "description" : 

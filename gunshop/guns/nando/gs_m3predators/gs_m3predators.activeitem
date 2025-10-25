@@ -6,7 +6,7 @@
   "rarity" : "rare",
   "level" : 6,
   "totalAmmo": 15,
-  "ammoPerShoot": 1,
+  
   "shortdescription" : "M-3 [predators]",
   "category" : "^#015bf9;Elanus Risk Control",
   "description" : 

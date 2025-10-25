@@ -6,7 +6,7 @@
   "rarity" : "Legendary",
   "level" : 1,
   "totalAmmo": 30,
-  "ammoPerShoot": 1,
+  
   "shortdescription" : "Honey Badger",
   "category" : "^#7c7c7c;Advanced Armament.Corp",
   "description" : 

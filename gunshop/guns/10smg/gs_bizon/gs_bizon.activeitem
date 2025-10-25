@@ -6,7 +6,7 @@
   "rarity" : "common",
   "level" : 1,
   "totalAmmo": 64,
-  "ammoPerShoot": 1,
+  
   "shortdescription" : "PP-19 Bizon",
   "category" : "^#7c7c7c;Izhmash",
   "description" : 

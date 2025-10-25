@@ -6,7 +6,7 @@
   "rarity" : "essential",
   "level" : 10,
   "totalAmmo": 8,
-  "ammoPerShoot": 1,
+  
   "shortdescription" : "^yellow;Desert angel",
   "category" : "^#7c7c7c;???",
   "description" : 

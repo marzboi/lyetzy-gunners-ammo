@@ -6,7 +6,7 @@
   "rarity" : "legendary",
   "level" : 1,
   "totalAmmo": 64,
-  "ammoPerShoot": 1,
+  
   "shortdescription" : "M739",
   "category" : "^#FF6600;Misriah Armory",
   "description" : 

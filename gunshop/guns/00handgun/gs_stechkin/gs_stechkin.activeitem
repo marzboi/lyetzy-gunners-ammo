@@ -6,7 +6,7 @@
   "rarity" : "common",
   "level" : 1,
   "totalAmmo": 20,
-  "ammoPerShoot": 1,
+  
   "shortdescription" : "Stechkin APS",
   "category" : "^#7c7c7c;Vytatsky Polyany Plant",
   "description" : 

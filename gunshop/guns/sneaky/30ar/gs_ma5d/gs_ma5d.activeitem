@@ -6,7 +6,7 @@
   "rarity" : "rare",
   "level" : 1,
   "totalAmmo": 30,
-  "ammoPerShoot": 1,
+  
   "shortdescription" : "MA5D ICWS",
   "category" : "^#FF6600;Misriah Armory",
   "description" : 

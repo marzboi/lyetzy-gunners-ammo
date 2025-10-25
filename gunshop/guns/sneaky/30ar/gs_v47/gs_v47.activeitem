@@ -6,7 +6,7 @@
   "rarity" : "rare",
   "level" : 1,
   "totalAmmo": 30,
-  "ammoPerShoot": 1,
+  
   "shortdescription" : "V47 Flatline",
   "category" : "^#7c7c7c;Wonyeon Defense",
   "description" : 

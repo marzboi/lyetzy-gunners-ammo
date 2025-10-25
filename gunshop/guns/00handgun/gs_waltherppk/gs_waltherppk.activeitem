@@ -6,7 +6,7 @@
   "rarity" : "common",
   "level" : 1,
   "totalAmmo": 7,
-  "ammoPerShoot": 1,
+  
   "shortdescription" : "Walther PPK",
   "category" : "^#7c7c7c;Carl Walther GMBH",
   "description" : 

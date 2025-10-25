@@ -6,7 +6,7 @@
   "rarity" : "rare",
   "level" : 1,
   "totalAmmo": 50,
-  "ammoPerShoot": 1,
+  
   "shortdescription" : "G5-12 SMG",
   "category" : "^#7c7c7c;MkioTNT Workshop",
   "description" : 

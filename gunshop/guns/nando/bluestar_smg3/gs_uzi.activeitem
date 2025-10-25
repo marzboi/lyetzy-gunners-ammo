@@ -6,7 +6,7 @@
   "rarity" : "common",
   "level" : 1,
   "totalAmmo": 32,
-  "ammoPerShoot": 1,
+  
   "shortdescription" : "Tpye Bulehand",
   "category" : "^#7c7c7c;BLUE STAR Sci. & Tech.",
   "description" : 

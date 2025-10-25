@@ -6,7 +6,7 @@
   "rarity" : "common",
   "level" : 1,
   "totalAmmo": 100,
-  "ammoPerShoot": 1,
+  
   "shortdescription" : "M1921A1 Thompson Drum mag.",
   "category" : "^#7c7c7c;U.S. Military",
   "description" : 

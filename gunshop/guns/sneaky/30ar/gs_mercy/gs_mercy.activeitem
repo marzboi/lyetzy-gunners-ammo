@@ -6,7 +6,7 @@
   "rarity" : "legendary",
   "level" : 1,
   "totalAmmo": 30,
-  "ammoPerShoot": 1,
+  
   "shortdescription" : "Nirwen's Mercy",
   "category" : "^#7c7c7c;Iron Banner",
   "description" : 

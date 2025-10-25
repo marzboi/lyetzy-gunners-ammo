@@ -6,7 +6,7 @@
   "rarity" : "common",
   "level" : 1,
   "totalAmmo": 19,
-  "ammoPerShoot": 1,
+  
   "shortdescription" : "Glock17",
   "category" : "^#7c7c7c;Glock Ges.m.b.H.",
   "description" : 

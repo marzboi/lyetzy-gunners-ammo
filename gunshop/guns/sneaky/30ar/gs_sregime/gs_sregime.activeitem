@@ -6,7 +6,7 @@
   "rarity" : "legendary",
   "level" : 1,
   "totalAmmo": 30,
-  "ammoPerShoot": 1,
+  
   "shortdescription" : "SUROS Regime",
   "category" : "^#FF0000;SUROS",
   "description" : 

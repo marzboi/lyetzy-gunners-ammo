@@ -6,7 +6,7 @@
   "rarity" : "rare",
   "level" : 5,
   "totalAmmo": 32,
-  "ammoPerShoot": 1,
+  
   "shortdescription" : "^blue;[Mercurius]",
   "category" : "^#7c7c7c;BLUE STAR Sci. & Tech.",
   "description" : 
