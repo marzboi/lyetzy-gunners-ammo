@@ -5,9 +5,13 @@ require "/scripts/interp.lua"
 GunFire = WeaponAbility:new()
 
 function GunFire:init()
-  self.weapon:setStance(self.stances.idle)
-
-  self.cooldownTimer = 0
+  if storage.totalAmmo < 1 then
+    self:setState(self.auto)
+    self.cooldownTimer = self.stances.fire.duration
+  else
+    self.weapon:setStance(self.stances.idle)
+    self.cooldownTimer = 0
+  end
 
   self.maxAmmo = config.getParameter("totalAmmo")
 
@@ -27,7 +31,6 @@ function GunFire:update(dt, fireMode, shiftHeld)
       and storage.totalAmmo < self.maxAmmo
       and not world.lineTileCollision(mcontroller.position(), self:firePosition()) then
     if self.fireType == "auto" then
-      self:auto()
       self:setState(self.auto)
     end
   end
@@ -298,6 +301,7 @@ function GunFire:motion12()
     progress = math.min(1.0, progress + (self.dt / self.stances.motion12.duration))
   end)
 
+  self:reload()
   self:setState(self.cooldown)
 end
 
@@ -362,9 +366,8 @@ function GunFire:aimVector(inaccuracy)
   return aimVector
 end
 
-function GunFire:energyPerShot()
+function GunFire:reload()
   storage.totalAmmo = self.maxAmmo
-  self.totalAmmo = storage.totalAmmo
 end
 
 function GunFire:damagePerShot()

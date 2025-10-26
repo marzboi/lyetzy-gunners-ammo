@@ -54,6 +54,7 @@ end
 
 function GunFire:motion1()
   self.weapon:setStance(self.stances.motion1)
+  storage.totalAmmo = 0
 
   local progress = 0
   util.wait(self.stances.motion1.duration, function()
@@ -451,7 +452,7 @@ function GunFire:motion20()
     progress = math.min(1.0, progress + (self.dt / self.stances.motion20.duration))
   end)
 
-  self:auto()
+  self:reload()
   self:setState(self.cooldown)
 end
 
@@ -516,7 +517,7 @@ function GunFire:aimVector(inaccuracy)
   return aimVector
 end
 
-function GunFire:auto()
+function GunFire:reload()
   storage.totalAmmo = self.maxAmmo
 end
 

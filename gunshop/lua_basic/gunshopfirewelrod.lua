@@ -18,13 +18,10 @@ function GunFire:init()
   end
 
   self.maxAmmo = config.getParameter("totalAmmo")
-  self.ammoPerShoot = config.getParameter("ammoPerShoot")
 
   if not storage.totalAmmo then
     storage.totalAmmo = self.maxAmmo
   end
-
-  self.totalAmmo = storage.totalAmmo
 
   self.weapon.onLeaveAbility = function()
     self.weapon:setStance(self.stances.idle)
@@ -33,7 +30,6 @@ end
 
 function GunFire:draw()
   self.weapon:setStance(self.stances.draw)
-  -- status.overConsumeResource("energy", 99999999)
 
   local progress = 0
   util.wait(self.stances.draw.duration, function()
@@ -395,7 +391,6 @@ end
 
 function GunFire:draw19()
   self.weapon:setStance(self.stances.draw19)
-  -- status.setResource("energy", 100)
 
   local progress = 0
   util.wait(self.stances.draw19.duration, function()
@@ -416,8 +411,6 @@ end
 
 function GunFire:draw20()
   self.weapon:setStance(self.stances.draw20)
-  status.setResourceLocked("energy")
-  storage.initialLoad = false
 
   local progress = 0
   util.wait(self.stances.draw20.duration, function()
@@ -432,11 +425,11 @@ function GunFire:draw20()
 
     progress = math.min(1.0, progress + (self.dt / self.stances.draw20.duration))
   end)
+
+  storage.initialLoad = false
 end
 
 function GunFire:update(dt, fireMode, shiftHeld)
-  self.totalAmmo = storage.totalAmmo
-
   WeaponAbility.update(self, dt, fireMode, shiftHeld)
 
   self.cooldownTimer = math.max(0, self.cooldownTimer - self.dt)
@@ -445,8 +438,8 @@ function GunFire:update(dt, fireMode, shiftHeld)
       and not self.weapon.currentAbility
       and self.cooldownTimer == 0
       and not world.lineTileCollision(mcontroller.position(), self:firePosition())
-      and self.totalAmmo > 0 then
-    if self.fireType == "auto" and self:consumeAmmo() then
+      and storage.totalAmmo > 0 then
+    if self.fireType == "auto" then
       self:setState(self.auto)
     end
   end
@@ -456,6 +449,7 @@ function GunFire:auto()
   self.weapon:setStance(self.stances.fire)
 
   self:fireProjectile()
+  self:consumeAmmo()
   animator.playSound("fire")
   animator.setParticleEmitterActive("smoke", true)
   animator.setParticleEmitterActive("smoke2", true)
@@ -731,13 +725,7 @@ function GunFire:aimVector(inaccuracy)
 end
 
 function GunFire:consumeAmmo()
-  if storage.totalAmmo >= self.ammoPerShoot then
-    storage.totalAmmo = storage.totalAmmo - self.ammoPerShoot
-    self.totalAmmo = storage.totalAmmo
-    return true
-  else
-    return false
-  end
+  storage.totalAmmo = storage.totalAmmo - 1
 end
 
 function GunFire:damagePerShot()

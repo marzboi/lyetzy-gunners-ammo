@@ -391,7 +391,6 @@ end
 
 function GunFire:draw19()
   self.weapon:setStance(self.stances.draw19)
-  -- status.setResource("energy", 100)
 
   local progress = 0
   util.wait(self.stances.draw19.duration, function()
