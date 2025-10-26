@@ -39,6 +39,9 @@
       ],
       "altFire": [
         "/gunshop/sound/reload/fastreload_g3.ogg"
+      ],
+      "dryfire": [
+        "/gunshop/sound/dryfire.ogg"
       ]
     }
   },
@@ -584,6 +587,61 @@
         "duration": 0,
         "armRotation": -10,
         "weaponRotation": 11,
+        "weaponRotationCenter": [
+          -0.4,
+          0
+        ],
+        "weaponOffset": [
+          -0.4,
+          0
+        ],
+        "twoHanded": true,
+        "allowRotate": true,
+        "allowFlip": true,
+        "frontArmFrame": "run.1",
+        "backArmFrame": "swim.3"
+      },
+      "dryfire": {
+        "duration": 0.15,
+        "armRotation": -10,
+        "weaponRotation": 10,
+        "weaponRotationCenter": [
+          -0.4,
+          0
+        ],
+        "weaponOffset": [
+          -0.4,
+          0
+        ],
+        "twoHanded": true,
+        "allowRotate": true,
+        "allowFlip": true,
+        "frontArmFrame": "run.1",
+        "backArmFrame": "swim.3"
+      },
+      "drymotion1": {
+        "duration": 0.05,
+        "armRotation": -11,
+        "weaponRotation": 11,
+        "weaponRotationCenter": [
+          -0.4,
+          0
+        ],
+        "weaponOffset": [
+          -0.4,
+          0
+        ],
+        "twoHanded": true,
+        "allowRotate": true,
+        "allowFlip": true,
+        "frontArmFrame": "run.1",
+        "backArmFrame": "swim.3",
+        "recoil": true
+      },
+      "drymotion2": {
+        "duration": 0.05,
+        "armRotation": -10,
+        "weaponRotation": 10,
         "weaponRotationCenter": [
           -0.4,
           0
