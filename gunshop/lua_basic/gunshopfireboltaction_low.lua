@@ -442,6 +442,14 @@ function GunFire:update(dt, fireMode, shiftHeld)
     if self.fireType == "auto" then
       self:setState(self.auto)
     end
+  elseif self.fireMode == (self.activatingFireMode or self.abilitySlot)
+      and not self.weapon.currentAbility
+      and self.cooldownTimer == 0
+      and not world.lineTileCollision(mcontroller.position(), self:firePosition())
+      and storage.totalAmmo < 1 then
+    if self.fireType == "auto" then
+      self:setState(self.dryfire)
+    end
   end
 end
 
@@ -681,6 +689,56 @@ function GunFire:cooldown()
       self.stances.idle.armRotation))
 
     progress = math.min(1.0, progress + (self.dt / self.stances.cooldown.duration))
+  end)
+end
+
+function GunFire:dryfire()
+  self.weapon:setStance(self.stances.dryfire)
+
+  animator.playSound("dryfire")
+
+  if self.stances.dryfire.duration then
+    util.wait(self.stances.dryfire.duration)
+  end
+
+  self:setState(self.drymotion1)
+end
+
+function GunFire:drymotion1()
+  self.weapon:setStance(self.stances.drymotion1)
+
+  local progress = 0
+  util.wait(self.stances.drymotion1.duration, function()
+    local from = self.stances.drymotion1.weaponOffset or { 0, 0 }
+    local to = self.stances.drymotion2.weaponOffset or { 0, 0 }
+    self.weapon.weaponOffset = { interp.linear(progress, from[1], to[1]), interp.linear(progress, from[2], to[2]) }
+
+    self.weapon.relativeWeaponRotation = util.toRadians(interp.linear(progress, self.stances.drymotion1.weaponRotation,
+      self.stances.drymotion2.weaponRotation))
+    self.weapon.relativeArmRotation = util.toRadians(interp.linear(progress, self.stances.drymotion1.armRotation,
+      self.stances.drymotion2.armRotation))
+
+    progress = math.min(1.0, progress + (self.dt / self.stances.motion1.duration))
+  end)
+
+  self:setState(self.drymotion2)
+end
+
+function GunFire:drymotion2()
+  self.weapon:setStance(self.stances.drymotion2)
+
+  local progress = 0
+  util.wait(self.stances.drymotion2.duration, function()
+    local from = self.stances.drymotion2.weaponOffset or { 0, 0 }
+    local to = self.stances.idle.weaponOffset or { 0, 0 }
+    self.weapon.weaponOffset = { interp.linear(progress, from[1], to[1]), interp.linear(progress, from[2], to[2]) }
+
+    self.weapon.relativeWeaponRotation = util.toRadians(interp.linear(progress, self.stances.drymotion2.weaponRotation,
+      self.stances.idle.weaponRotation))
+    self.weapon.relativeArmRotation = util.toRadians(interp.linear(progress, self.stances.drymotion2.armRotation,
+      self.stances.idle.armRotation))
+
+    progress = math.min(1.0, progress + (self.dt / self.stances.drymotion2.duration))
   end)
 end
 
